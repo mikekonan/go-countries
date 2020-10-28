@@ -1,1004 +1,1004 @@
 // This code is auto-generated; DO NOT EDIT.
 package country
- 
+
 var countryByCountry = map[Country]country{
 	"Afghanistan": {
 		country: "Afghanistan",
 		alpha2:  "AF",
 		alpha3:  "AFG",
-    },"Albania": {
+	}, "Albania": {
 		country: "Albania",
 		alpha2:  "AL",
 		alpha3:  "ALB",
-    },"Algeria": {
+	}, "Algeria": {
 		country: "Algeria",
 		alpha2:  "DZ",
 		alpha3:  "DZA",
-    },"American Samoa": {
+	}, "American Samoa": {
 		country: "American Samoa",
 		alpha2:  "AS",
 		alpha3:  "ASM",
-    },"Andorra": {
+	}, "Andorra": {
 		country: "Andorra",
 		alpha2:  "AD",
 		alpha3:  "AND",
-    },"Angola": {
+	}, "Angola": {
 		country: "Angola",
 		alpha2:  "AO",
 		alpha3:  "AGO",
-    },"Anguilla": {
+	}, "Anguilla": {
 		country: "Anguilla",
 		alpha2:  "AI",
 		alpha3:  "AIA",
-    },"Antarctica": {
+	}, "Antarctica": {
 		country: "Antarctica",
 		alpha2:  "AQ",
 		alpha3:  "ATA",
-    },"Antigua and Barbuda": {
+	}, "Antigua and Barbuda": {
 		country: "Antigua and Barbuda",
 		alpha2:  "AG",
 		alpha3:  "ATG",
-    },"Argentina": {
+	}, "Argentina": {
 		country: "Argentina",
 		alpha2:  "AR",
 		alpha3:  "ARG",
-    },"Armenia": {
+	}, "Armenia": {
 		country: "Armenia",
 		alpha2:  "AM",
 		alpha3:  "ARM",
-    },"Aruba": {
+	}, "Aruba": {
 		country: "Aruba",
 		alpha2:  "AW",
 		alpha3:  "ABW",
-    },"Australia": {
+	}, "Australia": {
 		country: "Australia",
 		alpha2:  "AU",
 		alpha3:  "AUS",
-    },"Austria": {
+	}, "Austria": {
 		country: "Austria",
 		alpha2:  "AT",
 		alpha3:  "AUT",
-    },"Azerbaijan": {
+	}, "Azerbaijan": {
 		country: "Azerbaijan",
 		alpha2:  "AZ",
 		alpha3:  "AZE",
-    },"Bahamas (the)": {
+	}, "Bahamas (the)": {
 		country: "Bahamas (the)",
 		alpha2:  "BS",
 		alpha3:  "BHS",
-    },"Bahrain": {
+	}, "Bahrain": {
 		country: "Bahrain",
 		alpha2:  "BH",
 		alpha3:  "BHR",
-    },"Bangladesh": {
+	}, "Bangladesh": {
 		country: "Bangladesh",
 		alpha2:  "BD",
 		alpha3:  "BGD",
-    },"Barbados": {
+	}, "Barbados": {
 		country: "Barbados",
 		alpha2:  "BB",
 		alpha3:  "BRB",
-    },"Belarus": {
+	}, "Belarus": {
 		country: "Belarus",
 		alpha2:  "BY",
 		alpha3:  "BLR",
-    },"Belgium": {
+	}, "Belgium": {
 		country: "Belgium",
 		alpha2:  "BE",
 		alpha3:  "BEL",
-    },"Belize": {
+	}, "Belize": {
 		country: "Belize",
 		alpha2:  "BZ",
 		alpha3:  "BLZ",
-    },"Benin": {
+	}, "Benin": {
 		country: "Benin",
 		alpha2:  "BJ",
 		alpha3:  "BEN",
-    },"Bermuda": {
+	}, "Bermuda": {
 		country: "Bermuda",
 		alpha2:  "BM",
 		alpha3:  "BMU",
-    },"Bhutan": {
+	}, "Bhutan": {
 		country: "Bhutan",
 		alpha2:  "BT",
 		alpha3:  "BTN",
-    },"Bolivia (Plurinational State of)": {
+	}, "Bolivia (Plurinational State of)": {
 		country: "Bolivia (Plurinational State of)",
 		alpha2:  "BO",
 		alpha3:  "BOL",
-    },"Bonaire, Sint Eustatius and Saba": {
+	}, "Bonaire, Sint Eustatius and Saba": {
 		country: "Bonaire, Sint Eustatius and Saba",
 		alpha2:  "BQ",
 		alpha3:  "BES",
-    },"Bosnia and Herzegovina": {
+	}, "Bosnia and Herzegovina": {
 		country: "Bosnia and Herzegovina",
 		alpha2:  "BA",
 		alpha3:  "BIH",
-    },"Botswana": {
+	}, "Botswana": {
 		country: "Botswana",
 		alpha2:  "BW",
 		alpha3:  "BWA",
-    },"Bouvet Island": {
+	}, "Bouvet Island": {
 		country: "Bouvet Island",
 		alpha2:  "BV",
 		alpha3:  "BVT",
-    },"Brazil": {
+	}, "Brazil": {
 		country: "Brazil",
 		alpha2:  "BR",
 		alpha3:  "BRA",
-    },"British Indian Ocean Territory (the)": {
+	}, "British Indian Ocean Territory (the)": {
 		country: "British Indian Ocean Territory (the)",
 		alpha2:  "IO",
 		alpha3:  "IOT",
-    },"Brunei Darussalam": {
+	}, "Brunei Darussalam": {
 		country: "Brunei Darussalam",
 		alpha2:  "BN",
 		alpha3:  "BRN",
-    },"Bulgaria": {
+	}, "Bulgaria": {
 		country: "Bulgaria",
 		alpha2:  "BG",
 		alpha3:  "BGR",
-    },"Burkina Faso": {
+	}, "Burkina Faso": {
 		country: "Burkina Faso",
 		alpha2:  "BF",
 		alpha3:  "BFA",
-    },"Burundi": {
+	}, "Burundi": {
 		country: "Burundi",
 		alpha2:  "BI",
 		alpha3:  "BDI",
-    },"Cabo Verde": {
+	}, "Cabo Verde": {
 		country: "Cabo Verde",
 		alpha2:  "CV",
 		alpha3:  "CPV",
-    },"Cambodia": {
+	}, "Cambodia": {
 		country: "Cambodia",
 		alpha2:  "KH",
 		alpha3:  "KHM",
-    },"Cameroon": {
+	}, "Cameroon": {
 		country: "Cameroon",
 		alpha2:  "CM",
 		alpha3:  "CMR",
-    },"Canada": {
+	}, "Canada": {
 		country: "Canada",
 		alpha2:  "CA",
 		alpha3:  "CAN",
-    },"Cayman Islands (the)": {
+	}, "Cayman Islands (the)": {
 		country: "Cayman Islands (the)",
 		alpha2:  "KY",
 		alpha3:  "CYM",
-    },"Central African Republic (the)": {
+	}, "Central African Republic (the)": {
 		country: "Central African Republic (the)",
 		alpha2:  "CF",
 		alpha3:  "CAF",
-    },"Chad": {
+	}, "Chad": {
 		country: "Chad",
 		alpha2:  "TD",
 		alpha3:  "TCD",
-    },"Chile": {
+	}, "Chile": {
 		country: "Chile",
 		alpha2:  "CL",
 		alpha3:  "CHL",
-    },"China": {
+	}, "China": {
 		country: "China",
 		alpha2:  "CN",
 		alpha3:  "CHN",
-    },"Christmas Island": {
+	}, "Christmas Island": {
 		country: "Christmas Island",
 		alpha2:  "CX",
 		alpha3:  "CXR",
-    },"Cocos (Keeling) Islands (the)": {
+	}, "Cocos (Keeling) Islands (the)": {
 		country: "Cocos (Keeling) Islands (the)",
 		alpha2:  "CC",
 		alpha3:  "CCK",
-    },"Colombia": {
+	}, "Colombia": {
 		country: "Colombia",
 		alpha2:  "CO",
 		alpha3:  "COL",
-    },"Comoros (the)": {
+	}, "Comoros (the)": {
 		country: "Comoros (the)",
 		alpha2:  "KM",
 		alpha3:  "COM",
-    },"Congo (the Democratic Republic of the)": {
+	}, "Congo (the Democratic Republic of the)": {
 		country: "Congo (the Democratic Republic of the)",
 		alpha2:  "CD",
 		alpha3:  "COD",
-    },"Congo (the)": {
+	}, "Congo (the)": {
 		country: "Congo (the)",
 		alpha2:  "CG",
 		alpha3:  "COG",
-    },"Cook Islands (the)": {
+	}, "Cook Islands (the)": {
 		country: "Cook Islands (the)",
 		alpha2:  "CK",
 		alpha3:  "COK",
-    },"Costa Rica": {
+	}, "Costa Rica": {
 		country: "Costa Rica",
 		alpha2:  "CR",
 		alpha3:  "CRI",
-    },"Croatia": {
+	}, "Croatia": {
 		country: "Croatia",
 		alpha2:  "HR",
 		alpha3:  "HRV",
-    },"Cuba": {
+	}, "Cuba": {
 		country: "Cuba",
 		alpha2:  "CU",
 		alpha3:  "CUB",
-    },"Curaçao": {
+	}, "Curaçao": {
 		country: "Curaçao",
 		alpha2:  "CW",
 		alpha3:  "CUW",
-    },"Cyprus": {
+	}, "Cyprus": {
 		country: "Cyprus",
 		alpha2:  "CY",
 		alpha3:  "CYP",
-    },"Czechia": {
+	}, "Czechia": {
 		country: "Czechia",
 		alpha2:  "CZ",
 		alpha3:  "CZE",
-    },"Côte d'Ivoire": {
+	}, "Côte d'Ivoire": {
 		country: "Côte d'Ivoire",
 		alpha2:  "CI",
 		alpha3:  "CIV",
-    },"Denmark": {
+	}, "Denmark": {
 		country: "Denmark",
 		alpha2:  "DK",
 		alpha3:  "DNK",
-    },"Djibouti": {
+	}, "Djibouti": {
 		country: "Djibouti",
 		alpha2:  "DJ",
 		alpha3:  "DJI",
-    },"Dominica": {
+	}, "Dominica": {
 		country: "Dominica",
 		alpha2:  "DM",
 		alpha3:  "DMA",
-    },"Dominican Republic (the)": {
+	}, "Dominican Republic (the)": {
 		country: "Dominican Republic (the)",
 		alpha2:  "DO",
 		alpha3:  "DOM",
-    },"Ecuador": {
+	}, "Ecuador": {
 		country: "Ecuador",
 		alpha2:  "EC",
 		alpha3:  "ECU",
-    },"Egypt": {
+	}, "Egypt": {
 		country: "Egypt",
 		alpha2:  "EG",
 		alpha3:  "EGY",
-    },"El Salvador": {
+	}, "El Salvador": {
 		country: "El Salvador",
 		alpha2:  "SV",
 		alpha3:  "SLV",
-    },"Equatorial Guinea": {
+	}, "Equatorial Guinea": {
 		country: "Equatorial Guinea",
 		alpha2:  "GQ",
 		alpha3:  "GNQ",
-    },"Eritrea": {
+	}, "Eritrea": {
 		country: "Eritrea",
 		alpha2:  "ER",
 		alpha3:  "ERI",
-    },"Estonia": {
+	}, "Estonia": {
 		country: "Estonia",
 		alpha2:  "EE",
 		alpha3:  "EST",
-    },"Eswatini": {
+	}, "Eswatini": {
 		country: "Eswatini",
 		alpha2:  "SZ",
 		alpha3:  "SWZ",
-    },"Ethiopia": {
+	}, "Ethiopia": {
 		country: "Ethiopia",
 		alpha2:  "ET",
 		alpha3:  "ETH",
-    },"Falkland Islands (the) [Malvinas]": {
+	}, "Falkland Islands (the) [Malvinas]": {
 		country: "Falkland Islands (the) [Malvinas]",
 		alpha2:  "FK",
 		alpha3:  "FLK",
-    },"Faroe Islands (the)": {
+	}, "Faroe Islands (the)": {
 		country: "Faroe Islands (the)",
 		alpha2:  "FO",
 		alpha3:  "FRO",
-    },"Fiji": {
+	}, "Fiji": {
 		country: "Fiji",
 		alpha2:  "FJ",
 		alpha3:  "FJI",
-    },"Finland": {
+	}, "Finland": {
 		country: "Finland",
 		alpha2:  "FI",
 		alpha3:  "FIN",
-    },"France": {
+	}, "France": {
 		country: "France",
 		alpha2:  "FR",
 		alpha3:  "FRA",
-    },"French Guiana": {
+	}, "French Guiana": {
 		country: "French Guiana",
 		alpha2:  "GF",
 		alpha3:  "GUF",
-    },"French Polynesia": {
+	}, "French Polynesia": {
 		country: "French Polynesia",
 		alpha2:  "PF",
 		alpha3:  "PYF",
-    },"French Southern Territories (the)": {
+	}, "French Southern Territories (the)": {
 		country: "French Southern Territories (the)",
 		alpha2:  "TF",
 		alpha3:  "ATF",
-    },"Gabon": {
+	}, "Gabon": {
 		country: "Gabon",
 		alpha2:  "GA",
 		alpha3:  "GAB",
-    },"Gambia (the)": {
+	}, "Gambia (the)": {
 		country: "Gambia (the)",
 		alpha2:  "GM",
 		alpha3:  "GMB",
-    },"Georgia": {
+	}, "Georgia": {
 		country: "Georgia",
 		alpha2:  "GE",
 		alpha3:  "GEO",
-    },"Germany": {
+	}, "Germany": {
 		country: "Germany",
 		alpha2:  "DE",
 		alpha3:  "DEU",
-    },"Ghana": {
+	}, "Ghana": {
 		country: "Ghana",
 		alpha2:  "GH",
 		alpha3:  "GHA",
-    },"Gibraltar": {
+	}, "Gibraltar": {
 		country: "Gibraltar",
 		alpha2:  "GI",
 		alpha3:  "GIB",
-    },"Greece": {
+	}, "Greece": {
 		country: "Greece",
 		alpha2:  "GR",
 		alpha3:  "GRC",
-    },"Greenland": {
+	}, "Greenland": {
 		country: "Greenland",
 		alpha2:  "GL",
 		alpha3:  "GRL",
-    },"Grenada": {
+	}, "Grenada": {
 		country: "Grenada",
 		alpha2:  "GD",
 		alpha3:  "GRD",
-    },"Guadeloupe": {
+	}, "Guadeloupe": {
 		country: "Guadeloupe",
 		alpha2:  "GP",
 		alpha3:  "GLP",
-    },"Guam": {
+	}, "Guam": {
 		country: "Guam",
 		alpha2:  "GU",
 		alpha3:  "GUM",
-    },"Guatemala": {
+	}, "Guatemala": {
 		country: "Guatemala",
 		alpha2:  "GT",
 		alpha3:  "GTM",
-    },"Guernsey": {
+	}, "Guernsey": {
 		country: "Guernsey",
 		alpha2:  "GG",
 		alpha3:  "GGY",
-    },"Guinea": {
+	}, "Guinea": {
 		country: "Guinea",
 		alpha2:  "GN",
 		alpha3:  "GIN",
-    },"Guinea-Bissau": {
+	}, "Guinea-Bissau": {
 		country: "Guinea-Bissau",
 		alpha2:  "GW",
 		alpha3:  "GNB",
-    },"Guyana": {
+	}, "Guyana": {
 		country: "Guyana",
 		alpha2:  "GY",
 		alpha3:  "GUY",
-    },"Haiti": {
+	}, "Haiti": {
 		country: "Haiti",
 		alpha2:  "HT",
 		alpha3:  "HTI",
-    },"Heard Island and McDonald Islands": {
+	}, "Heard Island and McDonald Islands": {
 		country: "Heard Island and McDonald Islands",
 		alpha2:  "HM",
 		alpha3:  "HMD",
-    },"Holy See (the)": {
+	}, "Holy See (the)": {
 		country: "Holy See (the)",
 		alpha2:  "VA",
 		alpha3:  "VAT",
-    },"Honduras": {
+	}, "Honduras": {
 		country: "Honduras",
 		alpha2:  "HN",
 		alpha3:  "HND",
-    },"Hong Kong": {
+	}, "Hong Kong": {
 		country: "Hong Kong",
 		alpha2:  "HK",
 		alpha3:  "HKG",
-    },"Hungary": {
+	}, "Hungary": {
 		country: "Hungary",
 		alpha2:  "HU",
 		alpha3:  "HUN",
-    },"Iceland": {
+	}, "Iceland": {
 		country: "Iceland",
 		alpha2:  "IS",
 		alpha3:  "ISL",
-    },"India": {
+	}, "India": {
 		country: "India",
 		alpha2:  "IN",
 		alpha3:  "IND",
-    },"Indonesia": {
+	}, "Indonesia": {
 		country: "Indonesia",
 		alpha2:  "ID",
 		alpha3:  "IDN",
-    },"Iran (Islamic Republic of)": {
+	}, "Iran (Islamic Republic of)": {
 		country: "Iran (Islamic Republic of)",
 		alpha2:  "IR",
 		alpha3:  "IRN",
-    },"Iraq": {
+	}, "Iraq": {
 		country: "Iraq",
 		alpha2:  "IQ",
 		alpha3:  "IRQ",
-    },"Ireland": {
+	}, "Ireland": {
 		country: "Ireland",
 		alpha2:  "IE",
 		alpha3:  "IRL",
-    },"Isle of Man": {
+	}, "Isle of Man": {
 		country: "Isle of Man",
 		alpha2:  "IM",
 		alpha3:  "IMN",
-    },"Israel": {
+	}, "Israel": {
 		country: "Israel",
 		alpha2:  "IL",
 		alpha3:  "ISR",
-    },"Italy": {
+	}, "Italy": {
 		country: "Italy",
 		alpha2:  "IT",
 		alpha3:  "ITA",
-    },"Jamaica": {
+	}, "Jamaica": {
 		country: "Jamaica",
 		alpha2:  "JM",
 		alpha3:  "JAM",
-    },"Japan": {
+	}, "Japan": {
 		country: "Japan",
 		alpha2:  "JP",
 		alpha3:  "JPN",
-    },"Jersey": {
+	}, "Jersey": {
 		country: "Jersey",
 		alpha2:  "JE",
 		alpha3:  "JEY",
-    },"Jordan": {
+	}, "Jordan": {
 		country: "Jordan",
 		alpha2:  "JO",
 		alpha3:  "JOR",
-    },"Kazakhstan": {
+	}, "Kazakhstan": {
 		country: "Kazakhstan",
 		alpha2:  "KZ",
 		alpha3:  "KAZ",
-    },"Kenya": {
+	}, "Kenya": {
 		country: "Kenya",
 		alpha2:  "KE",
 		alpha3:  "KEN",
-    },"Kiribati": {
+	}, "Kiribati": {
 		country: "Kiribati",
 		alpha2:  "KI",
 		alpha3:  "KIR",
-    },"Korea (the Democratic People's Republic of)": {
+	}, "Korea (the Democratic People's Republic of)": {
 		country: "Korea (the Democratic People's Republic of)",
 		alpha2:  "KP",
 		alpha3:  "PRK",
-    },"Korea (the Republic of)": {
+	}, "Korea (the Republic of)": {
 		country: "Korea (the Republic of)",
 		alpha2:  "KR",
 		alpha3:  "KOR",
-    },"Kuwait": {
+	}, "Kuwait": {
 		country: "Kuwait",
 		alpha2:  "KW",
 		alpha3:  "KWT",
-    },"Kyrgyzstan": {
+	}, "Kyrgyzstan": {
 		country: "Kyrgyzstan",
 		alpha2:  "KG",
 		alpha3:  "KGZ",
-    },"Lao People's Democratic Republic (the)": {
+	}, "Lao People's Democratic Republic (the)": {
 		country: "Lao People's Democratic Republic (the)",
 		alpha2:  "LA",
 		alpha3:  "LAO",
-    },"Latvia": {
+	}, "Latvia": {
 		country: "Latvia",
 		alpha2:  "LV",
 		alpha3:  "LVA",
-    },"Lebanon": {
+	}, "Lebanon": {
 		country: "Lebanon",
 		alpha2:  "LB",
 		alpha3:  "LBN",
-    },"Lesotho": {
+	}, "Lesotho": {
 		country: "Lesotho",
 		alpha2:  "LS",
 		alpha3:  "LSO",
-    },"Liberia": {
+	}, "Liberia": {
 		country: "Liberia",
 		alpha2:  "LR",
 		alpha3:  "LBR",
-    },"Libya": {
+	}, "Libya": {
 		country: "Libya",
 		alpha2:  "LY",
 		alpha3:  "LBY",
-    },"Liechtenstein": {
+	}, "Liechtenstein": {
 		country: "Liechtenstein",
 		alpha2:  "LI",
 		alpha3:  "LIE",
-    },"Lithuania": {
+	}, "Lithuania": {
 		country: "Lithuania",
 		alpha2:  "LT",
 		alpha3:  "LTU",
-    },"Luxembourg": {
+	}, "Luxembourg": {
 		country: "Luxembourg",
 		alpha2:  "LU",
 		alpha3:  "LUX",
-    },"Macao": {
+	}, "Macao": {
 		country: "Macao",
 		alpha2:  "MO",
 		alpha3:  "MAC",
-    },"Madagascar": {
+	}, "Madagascar": {
 		country: "Madagascar",
 		alpha2:  "MG",
 		alpha3:  "MDG",
-    },"Malawi": {
+	}, "Malawi": {
 		country: "Malawi",
 		alpha2:  "MW",
 		alpha3:  "MWI",
-    },"Malaysia": {
+	}, "Malaysia": {
 		country: "Malaysia",
 		alpha2:  "MY",
 		alpha3:  "MYS",
-    },"Maldives": {
+	}, "Maldives": {
 		country: "Maldives",
 		alpha2:  "MV",
 		alpha3:  "MDV",
-    },"Mali": {
+	}, "Mali": {
 		country: "Mali",
 		alpha2:  "ML",
 		alpha3:  "MLI",
-    },"Malta": {
+	}, "Malta": {
 		country: "Malta",
 		alpha2:  "MT",
 		alpha3:  "MLT",
-    },"Marshall Islands (the)": {
+	}, "Marshall Islands (the)": {
 		country: "Marshall Islands (the)",
 		alpha2:  "MH",
 		alpha3:  "MHL",
-    },"Martinique": {
+	}, "Martinique": {
 		country: "Martinique",
 		alpha2:  "MQ",
 		alpha3:  "MTQ",
-    },"Mauritania": {
+	}, "Mauritania": {
 		country: "Mauritania",
 		alpha2:  "MR",
 		alpha3:  "MRT",
-    },"Mauritius": {
+	}, "Mauritius": {
 		country: "Mauritius",
 		alpha2:  "MU",
 		alpha3:  "MUS",
-    },"Mayotte": {
+	}, "Mayotte": {
 		country: "Mayotte",
 		alpha2:  "YT",
 		alpha3:  "MYT",
-    },"Mexico": {
+	}, "Mexico": {
 		country: "Mexico",
 		alpha2:  "MX",
 		alpha3:  "MEX",
-    },"Micronesia (Federated States of)": {
+	}, "Micronesia (Federated States of)": {
 		country: "Micronesia (Federated States of)",
 		alpha2:  "FM",
 		alpha3:  "FSM",
-    },"Moldova (the Republic of)": {
+	}, "Moldova (the Republic of)": {
 		country: "Moldova (the Republic of)",
 		alpha2:  "MD",
 		alpha3:  "MDA",
-    },"Monaco": {
+	}, "Monaco": {
 		country: "Monaco",
 		alpha2:  "MC",
 		alpha3:  "MCO",
-    },"Mongolia": {
+	}, "Mongolia": {
 		country: "Mongolia",
 		alpha2:  "MN",
 		alpha3:  "MNG",
-    },"Montenegro": {
+	}, "Montenegro": {
 		country: "Montenegro",
 		alpha2:  "ME",
 		alpha3:  "MNE",
-    },"Montserrat": {
+	}, "Montserrat": {
 		country: "Montserrat",
 		alpha2:  "MS",
 		alpha3:  "MSR",
-    },"Morocco": {
+	}, "Morocco": {
 		country: "Morocco",
 		alpha2:  "MA",
 		alpha3:  "MAR",
-    },"Mozambique": {
+	}, "Mozambique": {
 		country: "Mozambique",
 		alpha2:  "MZ",
 		alpha3:  "MOZ",
-    },"Myanmar": {
+	}, "Myanmar": {
 		country: "Myanmar",
 		alpha2:  "MM",
 		alpha3:  "MMR",
-    },"Namibia": {
+	}, "Namibia": {
 		country: "Namibia",
 		alpha2:  "NA",
 		alpha3:  "NAM",
-    },"Nauru": {
+	}, "Nauru": {
 		country: "Nauru",
 		alpha2:  "NR",
 		alpha3:  "NRU",
-    },"Nepal": {
+	}, "Nepal": {
 		country: "Nepal",
 		alpha2:  "NP",
 		alpha3:  "NPL",
-    },"Netherlands (the)": {
+	}, "Netherlands (the)": {
 		country: "Netherlands (the)",
 		alpha2:  "NL",
 		alpha3:  "NLD",
-    },"New Caledonia": {
+	}, "New Caledonia": {
 		country: "New Caledonia",
 		alpha2:  "NC",
 		alpha3:  "NCL",
-    },"New Zealand": {
+	}, "New Zealand": {
 		country: "New Zealand",
 		alpha2:  "NZ",
 		alpha3:  "NZL",
-    },"Nicaragua": {
+	}, "Nicaragua": {
 		country: "Nicaragua",
 		alpha2:  "NI",
 		alpha3:  "NIC",
-    },"Niger (the)": {
+	}, "Niger (the)": {
 		country: "Niger (the)",
 		alpha2:  "NE",
 		alpha3:  "NER",
-    },"Nigeria": {
+	}, "Nigeria": {
 		country: "Nigeria",
 		alpha2:  "NG",
 		alpha3:  "NGA",
-    },"Niue": {
+	}, "Niue": {
 		country: "Niue",
 		alpha2:  "NU",
 		alpha3:  "NIU",
-    },"Norfolk Island": {
+	}, "Norfolk Island": {
 		country: "Norfolk Island",
 		alpha2:  "NF",
 		alpha3:  "NFK",
-    },"North Macedonia": {
+	}, "North Macedonia": {
 		country: "North Macedonia",
 		alpha2:  "MK",
 		alpha3:  "MKD",
-    },"Northern Mariana Islands (the)": {
+	}, "Northern Mariana Islands (the)": {
 		country: "Northern Mariana Islands (the)",
 		alpha2:  "MP",
 		alpha3:  "MNP",
-    },"Norway": {
+	}, "Norway": {
 		country: "Norway",
 		alpha2:  "NO",
 		alpha3:  "NOR",
-    },"Oman": {
+	}, "Oman": {
 		country: "Oman",
 		alpha2:  "OM",
 		alpha3:  "OMN",
-    },"Pakistan": {
+	}, "Pakistan": {
 		country: "Pakistan",
 		alpha2:  "PK",
 		alpha3:  "PAK",
-    },"Palau": {
+	}, "Palau": {
 		country: "Palau",
 		alpha2:  "PW",
 		alpha3:  "PLW",
-    },"Palestine, State of": {
+	}, "Palestine, State of": {
 		country: "Palestine, State of",
 		alpha2:  "PS",
 		alpha3:  "PSE",
-    },"Panama": {
+	}, "Panama": {
 		country: "Panama",
 		alpha2:  "PA",
 		alpha3:  "PAN",
-    },"Papua New Guinea": {
+	}, "Papua New Guinea": {
 		country: "Papua New Guinea",
 		alpha2:  "PG",
 		alpha3:  "PNG",
-    },"Paraguay": {
+	}, "Paraguay": {
 		country: "Paraguay",
 		alpha2:  "PY",
 		alpha3:  "PRY",
-    },"Peru": {
+	}, "Peru": {
 		country: "Peru",
 		alpha2:  "PE",
 		alpha3:  "PER",
-    },"Philippines (the)": {
+	}, "Philippines (the)": {
 		country: "Philippines (the)",
 		alpha2:  "PH",
 		alpha3:  "PHL",
-    },"Pitcairn": {
+	}, "Pitcairn": {
 		country: "Pitcairn",
 		alpha2:  "PN",
 		alpha3:  "PCN",
-    },"Poland": {
+	}, "Poland": {
 		country: "Poland",
 		alpha2:  "PL",
 		alpha3:  "POL",
-    },"Portugal": {
+	}, "Portugal": {
 		country: "Portugal",
 		alpha2:  "PT",
 		alpha3:  "PRT",
-    },"Puerto Rico": {
+	}, "Puerto Rico": {
 		country: "Puerto Rico",
 		alpha2:  "PR",
 		alpha3:  "PRI",
-    },"Qatar": {
+	}, "Qatar": {
 		country: "Qatar",
 		alpha2:  "QA",
 		alpha3:  "QAT",
-    },"Romania": {
+	}, "Romania": {
 		country: "Romania",
 		alpha2:  "RO",
 		alpha3:  "ROU",
-    },"Russian Federation (the)": {
+	}, "Russian Federation (the)": {
 		country: "Russian Federation (the)",
 		alpha2:  "RU",
 		alpha3:  "RUS",
-    },"Rwanda": {
+	}, "Rwanda": {
 		country: "Rwanda",
 		alpha2:  "RW",
 		alpha3:  "RWA",
-    },"Réunion": {
+	}, "Réunion": {
 		country: "Réunion",
 		alpha2:  "RE",
 		alpha3:  "REU",
-    },"Saint Barthélemy": {
+	}, "Saint Barthélemy": {
 		country: "Saint Barthélemy",
 		alpha2:  "BL",
 		alpha3:  "BLM",
-    },"Saint Helena, Ascension and Tristan da Cunha": {
+	}, "Saint Helena, Ascension and Tristan da Cunha": {
 		country: "Saint Helena, Ascension and Tristan da Cunha",
 		alpha2:  "SH",
 		alpha3:  "SHN",
-    },"Saint Kitts and Nevis": {
+	}, "Saint Kitts and Nevis": {
 		country: "Saint Kitts and Nevis",
 		alpha2:  "KN",
 		alpha3:  "KNA",
-    },"Saint Lucia": {
+	}, "Saint Lucia": {
 		country: "Saint Lucia",
 		alpha2:  "LC",
 		alpha3:  "LCA",
-    },"Saint Martin (French part)": {
+	}, "Saint Martin (French part)": {
 		country: "Saint Martin (French part)",
 		alpha2:  "MF",
 		alpha3:  "MAF",
-    },"Saint Pierre and Miquelon": {
+	}, "Saint Pierre and Miquelon": {
 		country: "Saint Pierre and Miquelon",
 		alpha2:  "PM",
 		alpha3:  "SPM",
-    },"Saint Vincent and the Grenadines": {
+	}, "Saint Vincent and the Grenadines": {
 		country: "Saint Vincent and the Grenadines",
 		alpha2:  "VC",
 		alpha3:  "VCT",
-    },"Samoa": {
+	}, "Samoa": {
 		country: "Samoa",
 		alpha2:  "WS",
 		alpha3:  "WSM",
-    },"San Marino": {
+	}, "San Marino": {
 		country: "San Marino",
 		alpha2:  "SM",
 		alpha3:  "SMR",
-    },"Sao Tome and Principe": {
+	}, "Sao Tome and Principe": {
 		country: "Sao Tome and Principe",
 		alpha2:  "ST",
 		alpha3:  "STP",
-    },"Saudi Arabia": {
+	}, "Saudi Arabia": {
 		country: "Saudi Arabia",
 		alpha2:  "SA",
 		alpha3:  "SAU",
-    },"Senegal": {
+	}, "Senegal": {
 		country: "Senegal",
 		alpha2:  "SN",
 		alpha3:  "SEN",
-    },"Serbia": {
+	}, "Serbia": {
 		country: "Serbia",
 		alpha2:  "RS",
 		alpha3:  "SRB",
-    },"Seychelles": {
+	}, "Seychelles": {
 		country: "Seychelles",
 		alpha2:  "SC",
 		alpha3:  "SYC",
-    },"Sierra Leone": {
+	}, "Sierra Leone": {
 		country: "Sierra Leone",
 		alpha2:  "SL",
 		alpha3:  "SLE",
-    },"Singapore": {
+	}, "Singapore": {
 		country: "Singapore",
 		alpha2:  "SG",
 		alpha3:  "SGP",
-    },"Sint Maarten (Dutch part)": {
+	}, "Sint Maarten (Dutch part)": {
 		country: "Sint Maarten (Dutch part)",
 		alpha2:  "SX",
 		alpha3:  "SXM",
-    },"Slovakia": {
+	}, "Slovakia": {
 		country: "Slovakia",
 		alpha2:  "SK",
 		alpha3:  "SVK",
-    },"Slovenia": {
+	}, "Slovenia": {
 		country: "Slovenia",
 		alpha2:  "SI",
 		alpha3:  "SVN",
-    },"Solomon Islands": {
+	}, "Solomon Islands": {
 		country: "Solomon Islands",
 		alpha2:  "SB",
 		alpha3:  "SLB",
-    },"Somalia": {
+	}, "Somalia": {
 		country: "Somalia",
 		alpha2:  "SO",
 		alpha3:  "SOM",
-    },"South Africa": {
+	}, "South Africa": {
 		country: "South Africa",
 		alpha2:  "ZA",
 		alpha3:  "ZAF",
-    },"South Georgia and the South Sandwich Islands": {
+	}, "South Georgia and the South Sandwich Islands": {
 		country: "South Georgia and the South Sandwich Islands",
 		alpha2:  "GS",
 		alpha3:  "SGS",
-    },"South Sudan": {
+	}, "South Sudan": {
 		country: "South Sudan",
 		alpha2:  "SS",
 		alpha3:  "SSD",
-    },"Spain": {
+	}, "Spain": {
 		country: "Spain",
 		alpha2:  "ES",
 		alpha3:  "ESP",
-    },"Sri Lanka": {
+	}, "Sri Lanka": {
 		country: "Sri Lanka",
 		alpha2:  "LK",
 		alpha3:  "LKA",
-    },"Sudan (the)": {
+	}, "Sudan (the)": {
 		country: "Sudan (the)",
 		alpha2:  "SD",
 		alpha3:  "SDN",
-    },"Suriname": {
+	}, "Suriname": {
 		country: "Suriname",
 		alpha2:  "SR",
 		alpha3:  "SUR",
-    },"Svalbard and Jan Mayen": {
+	}, "Svalbard and Jan Mayen": {
 		country: "Svalbard and Jan Mayen",
 		alpha2:  "SJ",
 		alpha3:  "SJM",
-    },"Sweden": {
+	}, "Sweden": {
 		country: "Sweden",
 		alpha2:  "SE",
 		alpha3:  "SWE",
-    },"Switzerland": {
+	}, "Switzerland": {
 		country: "Switzerland",
 		alpha2:  "CH",
 		alpha3:  "CHE",
-    },"Syrian Arab Republic (the)": {
+	}, "Syrian Arab Republic (the)": {
 		country: "Syrian Arab Republic (the)",
 		alpha2:  "SY",
 		alpha3:  "SYR",
-    },"Taiwan (Province of China)": {
+	}, "Taiwan (Province of China)": {
 		country: "Taiwan (Province of China)",
 		alpha2:  "TW",
 		alpha3:  "TWN",
-    },"Tajikistan": {
+	}, "Tajikistan": {
 		country: "Tajikistan",
 		alpha2:  "TJ",
 		alpha3:  "TJK",
-    },"Tanzania, the United Republic of": {
+	}, "Tanzania, the United Republic of": {
 		country: "Tanzania, the United Republic of",
 		alpha2:  "TZ",
 		alpha3:  "TZA",
-    },"Thailand": {
+	}, "Thailand": {
 		country: "Thailand",
 		alpha2:  "TH",
 		alpha3:  "THA",
-    },"Timor-Leste": {
+	}, "Timor-Leste": {
 		country: "Timor-Leste",
 		alpha2:  "TL",
 		alpha3:  "TLS",
-    },"Togo": {
+	}, "Togo": {
 		country: "Togo",
 		alpha2:  "TG",
 		alpha3:  "TGO",
-    },"Tokelau": {
+	}, "Tokelau": {
 		country: "Tokelau",
 		alpha2:  "TK",
 		alpha3:  "TKL",
-    },"Tonga": {
+	}, "Tonga": {
 		country: "Tonga",
 		alpha2:  "TO",
 		alpha3:  "TON",
-    },"Trinidad and Tobago": {
+	}, "Trinidad and Tobago": {
 		country: "Trinidad and Tobago",
 		alpha2:  "TT",
 		alpha3:  "TTO",
-    },"Tunisia": {
+	}, "Tunisia": {
 		country: "Tunisia",
 		alpha2:  "TN",
 		alpha3:  "TUN",
-    },"Turkey": {
+	}, "Turkey": {
 		country: "Turkey",
 		alpha2:  "TR",
 		alpha3:  "TUR",
-    },"Turkmenistan": {
+	}, "Turkmenistan": {
 		country: "Turkmenistan",
 		alpha2:  "TM",
 		alpha3:  "TKM",
-    },"Turks and Caicos Islands (the)": {
+	}, "Turks and Caicos Islands (the)": {
 		country: "Turks and Caicos Islands (the)",
 		alpha2:  "TC",
 		alpha3:  "TCA",
-    },"Tuvalu": {
+	}, "Tuvalu": {
 		country: "Tuvalu",
 		alpha2:  "TV",
 		alpha3:  "TUV",
-    },"Uganda": {
+	}, "Uganda": {
 		country: "Uganda",
 		alpha2:  "UG",
 		alpha3:  "UGA",
-    },"Ukraine": {
+	}, "Ukraine": {
 		country: "Ukraine",
 		alpha2:  "UA",
 		alpha3:  "UKR",
-    },"United Arab Emirates (the)": {
+	}, "United Arab Emirates (the)": {
 		country: "United Arab Emirates (the)",
 		alpha2:  "AE",
 		alpha3:  "ARE",
-    },"United Kingdom of Great Britain and Northern Ireland (the)": {
+	}, "United Kingdom of Great Britain and Northern Ireland (the)": {
 		country: "United Kingdom of Great Britain and Northern Ireland (the)",
 		alpha2:  "GB",
 		alpha3:  "GBR",
-    },"United States Minor Outlying Islands (the)": {
+	}, "United States Minor Outlying Islands (the)": {
 		country: "United States Minor Outlying Islands (the)",
 		alpha2:  "UM",
 		alpha3:  "UMI",
-    },"United States of America (the)": {
+	}, "United States of America (the)": {
 		country: "United States of America (the)",
 		alpha2:  "US",
 		alpha3:  "USA",
-    },"Uruguay": {
+	}, "Uruguay": {
 		country: "Uruguay",
 		alpha2:  "UY",
 		alpha3:  "URY",
-    },"Uzbekistan": {
+	}, "Uzbekistan": {
 		country: "Uzbekistan",
 		alpha2:  "UZ",
 		alpha3:  "UZB",
-    },"Vanuatu": {
+	}, "Vanuatu": {
 		country: "Vanuatu",
 		alpha2:  "VU",
 		alpha3:  "VUT",
-    },"Venezuela (Bolivarian Republic of)": {
+	}, "Venezuela (Bolivarian Republic of)": {
 		country: "Venezuela (Bolivarian Republic of)",
 		alpha2:  "VE",
 		alpha3:  "VEN",
-    },"Viet Nam": {
+	}, "Viet Nam": {
 		country: "Viet Nam",
 		alpha2:  "VN",
 		alpha3:  "VNM",
-    },"Virgin Islands (British)": {
+	}, "Virgin Islands (British)": {
 		country: "Virgin Islands (British)",
 		alpha2:  "VG",
 		alpha3:  "VGB",
-    },"Virgin Islands (U.S.)": {
+	}, "Virgin Islands (U.S.)": {
 		country: "Virgin Islands (U.S.)",
 		alpha2:  "VI",
 		alpha3:  "VIR",
-    },"Wallis and Futuna": {
+	}, "Wallis and Futuna": {
 		country: "Wallis and Futuna",
 		alpha2:  "WF",
 		alpha3:  "WLF",
-    },"Western Sahara*": {
+	}, "Western Sahara*": {
 		country: "Western Sahara*",
 		alpha2:  "EH",
 		alpha3:  "ESH",
-    },"Yemen": {
+	}, "Yemen": {
 		country: "Yemen",
 		alpha2:  "YE",
 		alpha3:  "YEM",
-    },"Zambia": {
+	}, "Zambia": {
 		country: "Zambia",
 		alpha2:  "ZM",
 		alpha3:  "ZMB",
-    },"Zimbabwe": {
+	}, "Zimbabwe": {
 		country: "Zimbabwe",
 		alpha2:  "ZW",
 		alpha3:  "ZWE",
-    },"Åland Islands": {
+	}, "Åland Islands": {
 		country: "Åland Islands",
 		alpha2:  "AX",
 		alpha3:  "ALA",
-    },
+	},
 }
 
 var countryByAlpha2 = map[Alpha2Code]country{
@@ -1006,999 +1006,999 @@ var countryByAlpha2 = map[Alpha2Code]country{
 		country: "Afghanistan",
 		alpha2:  "AF",
 		alpha3:  "AFG",
-    },"AL": {
+	}, "AL": {
 		country: "Albania",
 		alpha2:  "AL",
 		alpha3:  "ALB",
-    },"DZ": {
+	}, "DZ": {
 		country: "Algeria",
 		alpha2:  "DZ",
 		alpha3:  "DZA",
-    },"AS": {
+	}, "AS": {
 		country: "American Samoa",
 		alpha2:  "AS",
 		alpha3:  "ASM",
-    },"AD": {
+	}, "AD": {
 		country: "Andorra",
 		alpha2:  "AD",
 		alpha3:  "AND",
-    },"AO": {
+	}, "AO": {
 		country: "Angola",
 		alpha2:  "AO",
 		alpha3:  "AGO",
-    },"AI": {
+	}, "AI": {
 		country: "Anguilla",
 		alpha2:  "AI",
 		alpha3:  "AIA",
-    },"AQ": {
+	}, "AQ": {
 		country: "Antarctica",
 		alpha2:  "AQ",
 		alpha3:  "ATA",
-    },"AG": {
+	}, "AG": {
 		country: "Antigua and Barbuda",
 		alpha2:  "AG",
 		alpha3:  "ATG",
-    },"AR": {
+	}, "AR": {
 		country: "Argentina",
 		alpha2:  "AR",
 		alpha3:  "ARG",
-    },"AM": {
+	}, "AM": {
 		country: "Armenia",
 		alpha2:  "AM",
 		alpha3:  "ARM",
-    },"AW": {
+	}, "AW": {
 		country: "Aruba",
 		alpha2:  "AW",
 		alpha3:  "ABW",
-    },"AU": {
+	}, "AU": {
 		country: "Australia",
 		alpha2:  "AU",
 		alpha3:  "AUS",
-    },"AT": {
+	}, "AT": {
 		country: "Austria",
 		alpha2:  "AT",
 		alpha3:  "AUT",
-    },"AZ": {
+	}, "AZ": {
 		country: "Azerbaijan",
 		alpha2:  "AZ",
 		alpha3:  "AZE",
-    },"BS": {
+	}, "BS": {
 		country: "Bahamas (the)",
 		alpha2:  "BS",
 		alpha3:  "BHS",
-    },"BH": {
+	}, "BH": {
 		country: "Bahrain",
 		alpha2:  "BH",
 		alpha3:  "BHR",
-    },"BD": {
+	}, "BD": {
 		country: "Bangladesh",
 		alpha2:  "BD",
 		alpha3:  "BGD",
-    },"BB": {
+	}, "BB": {
 		country: "Barbados",
 		alpha2:  "BB",
 		alpha3:  "BRB",
-    },"BY": {
+	}, "BY": {
 		country: "Belarus",
 		alpha2:  "BY",
 		alpha3:  "BLR",
-    },"BE": {
+	}, "BE": {
 		country: "Belgium",
 		alpha2:  "BE",
 		alpha3:  "BEL",
-    },"BZ": {
+	}, "BZ": {
 		country: "Belize",
 		alpha2:  "BZ",
 		alpha3:  "BLZ",
-    },"BJ": {
+	}, "BJ": {
 		country: "Benin",
 		alpha2:  "BJ",
 		alpha3:  "BEN",
-    },"BM": {
+	}, "BM": {
 		country: "Bermuda",
 		alpha2:  "BM",
 		alpha3:  "BMU",
-    },"BT": {
+	}, "BT": {
 		country: "Bhutan",
 		alpha2:  "BT",
 		alpha3:  "BTN",
-    },"BO": {
+	}, "BO": {
 		country: "Bolivia (Plurinational State of)",
 		alpha2:  "BO",
 		alpha3:  "BOL",
-    },"BQ": {
+	}, "BQ": {
 		country: "Bonaire, Sint Eustatius and Saba",
 		alpha2:  "BQ",
 		alpha3:  "BES",
-    },"BA": {
+	}, "BA": {
 		country: "Bosnia and Herzegovina",
 		alpha2:  "BA",
 		alpha3:  "BIH",
-    },"BW": {
+	}, "BW": {
 		country: "Botswana",
 		alpha2:  "BW",
 		alpha3:  "BWA",
-    },"BV": {
+	}, "BV": {
 		country: "Bouvet Island",
 		alpha2:  "BV",
 		alpha3:  "BVT",
-    },"BR": {
+	}, "BR": {
 		country: "Brazil",
 		alpha2:  "BR",
 		alpha3:  "BRA",
-    },"IO": {
+	}, "IO": {
 		country: "British Indian Ocean Territory (the)",
 		alpha2:  "IO",
 		alpha3:  "IOT",
-    },"BN": {
+	}, "BN": {
 		country: "Brunei Darussalam",
 		alpha2:  "BN",
 		alpha3:  "BRN",
-    },"BG": {
+	}, "BG": {
 		country: "Bulgaria",
 		alpha2:  "BG",
 		alpha3:  "BGR",
-    },"BF": {
+	}, "BF": {
 		country: "Burkina Faso",
 		alpha2:  "BF",
 		alpha3:  "BFA",
-    },"BI": {
+	}, "BI": {
 		country: "Burundi",
 		alpha2:  "BI",
 		alpha3:  "BDI",
-    },"CV": {
+	}, "CV": {
 		country: "Cabo Verde",
 		alpha2:  "CV",
 		alpha3:  "CPV",
-    },"KH": {
+	}, "KH": {
 		country: "Cambodia",
 		alpha2:  "KH",
 		alpha3:  "KHM",
-    },"CM": {
+	}, "CM": {
 		country: "Cameroon",
 		alpha2:  "CM",
 		alpha3:  "CMR",
-    },"CA": {
+	}, "CA": {
 		country: "Canada",
 		alpha2:  "CA",
 		alpha3:  "CAN",
-    },"KY": {
+	}, "KY": {
 		country: "Cayman Islands (the)",
 		alpha2:  "KY",
 		alpha3:  "CYM",
-    },"CF": {
+	}, "CF": {
 		country: "Central African Republic (the)",
 		alpha2:  "CF",
 		alpha3:  "CAF",
-    },"TD": {
+	}, "TD": {
 		country: "Chad",
 		alpha2:  "TD",
 		alpha3:  "TCD",
-    },"CL": {
+	}, "CL": {
 		country: "Chile",
 		alpha2:  "CL",
 		alpha3:  "CHL",
-    },"CN": {
+	}, "CN": {
 		country: "China",
 		alpha2:  "CN",
 		alpha3:  "CHN",
-    },"CX": {
+	}, "CX": {
 		country: "Christmas Island",
 		alpha2:  "CX",
 		alpha3:  "CXR",
-    },"CC": {
+	}, "CC": {
 		country: "Cocos (Keeling) Islands (the)",
 		alpha2:  "CC",
 		alpha3:  "CCK",
-    },"CO": {
+	}, "CO": {
 		country: "Colombia",
 		alpha2:  "CO",
 		alpha3:  "COL",
-    },"KM": {
+	}, "KM": {
 		country: "Comoros (the)",
 		alpha2:  "KM",
 		alpha3:  "COM",
-    },"CD": {
+	}, "CD": {
 		country: "Congo (the Democratic Republic of the)",
 		alpha2:  "CD",
 		alpha3:  "COD",
-    },"CG": {
+	}, "CG": {
 		country: "Congo (the)",
 		alpha2:  "CG",
 		alpha3:  "COG",
-    },"CK": {
+	}, "CK": {
 		country: "Cook Islands (the)",
 		alpha2:  "CK",
 		alpha3:  "COK",
-    },"CR": {
+	}, "CR": {
 		country: "Costa Rica",
 		alpha2:  "CR",
 		alpha3:  "CRI",
-    },"HR": {
+	}, "HR": {
 		country: "Croatia",
 		alpha2:  "HR",
 		alpha3:  "HRV",
-    },"CU": {
+	}, "CU": {
 		country: "Cuba",
 		alpha2:  "CU",
 		alpha3:  "CUB",
-    },"CW": {
+	}, "CW": {
 		country: "Curaçao",
 		alpha2:  "CW",
 		alpha3:  "CUW",
-    },"CY": {
+	}, "CY": {
 		country: "Cyprus",
 		alpha2:  "CY",
 		alpha3:  "CYP",
-    },"CZ": {
+	}, "CZ": {
 		country: "Czechia",
 		alpha2:  "CZ",
 		alpha3:  "CZE",
-    },"CI": {
+	}, "CI": {
 		country: "Côte d'Ivoire",
 		alpha2:  "CI",
 		alpha3:  "CIV",
-    },"DK": {
+	}, "DK": {
 		country: "Denmark",
 		alpha2:  "DK",
 		alpha3:  "DNK",
-    },"DJ": {
+	}, "DJ": {
 		country: "Djibouti",
 		alpha2:  "DJ",
 		alpha3:  "DJI",
-    },"DM": {
+	}, "DM": {
 		country: "Dominica",
 		alpha2:  "DM",
 		alpha3:  "DMA",
-    },"DO": {
+	}, "DO": {
 		country: "Dominican Republic (the)",
 		alpha2:  "DO",
 		alpha3:  "DOM",
-    },"EC": {
+	}, "EC": {
 		country: "Ecuador",
 		alpha2:  "EC",
 		alpha3:  "ECU",
-    },"EG": {
+	}, "EG": {
 		country: "Egypt",
 		alpha2:  "EG",
 		alpha3:  "EGY",
-    },"SV": {
+	}, "SV": {
 		country: "El Salvador",
 		alpha2:  "SV",
 		alpha3:  "SLV",
-    },"GQ": {
+	}, "GQ": {
 		country: "Equatorial Guinea",
 		alpha2:  "GQ",
 		alpha3:  "GNQ",
-    },"ER": {
+	}, "ER": {
 		country: "Eritrea",
 		alpha2:  "ER",
 		alpha3:  "ERI",
-    },"EE": {
+	}, "EE": {
 		country: "Estonia",
 		alpha2:  "EE",
 		alpha3:  "EST",
-    },"SZ": {
+	}, "SZ": {
 		country: "Eswatini",
 		alpha2:  "SZ",
 		alpha3:  "SWZ",
-    },"ET": {
+	}, "ET": {
 		country: "Ethiopia",
 		alpha2:  "ET",
 		alpha3:  "ETH",
-    },"FK": {
+	}, "FK": {
 		country: "Falkland Islands (the) [Malvinas]",
 		alpha2:  "FK",
 		alpha3:  "FLK",
-    },"FO": {
+	}, "FO": {
 		country: "Faroe Islands (the)",
 		alpha2:  "FO",
 		alpha3:  "FRO",
-    },"FJ": {
+	}, "FJ": {
 		country: "Fiji",
 		alpha2:  "FJ",
 		alpha3:  "FJI",
-    },"FI": {
+	}, "FI": {
 		country: "Finland",
 		alpha2:  "FI",
 		alpha3:  "FIN",
-    },"FR": {
+	}, "FR": {
 		country: "France",
 		alpha2:  "FR",
 		alpha3:  "FRA",
-    },"GF": {
+	}, "GF": {
 		country: "French Guiana",
 		alpha2:  "GF",
 		alpha3:  "GUF",
-    },"PF": {
+	}, "PF": {
 		country: "French Polynesia",
 		alpha2:  "PF",
 		alpha3:  "PYF",
-    },"TF": {
+	}, "TF": {
 		country: "French Southern Territories (the)",
 		alpha2:  "TF",
 		alpha3:  "ATF",
-    },"GA": {
+	}, "GA": {
 		country: "Gabon",
 		alpha2:  "GA",
 		alpha3:  "GAB",
-    },"GM": {
+	}, "GM": {
 		country: "Gambia (the)",
 		alpha2:  "GM",
 		alpha3:  "GMB",
-    },"GE": {
+	}, "GE": {
 		country: "Georgia",
 		alpha2:  "GE",
 		alpha3:  "GEO",
-    },"DE": {
+	}, "DE": {
 		country: "Germany",
 		alpha2:  "DE",
 		alpha3:  "DEU",
-    },"GH": {
+	}, "GH": {
 		country: "Ghana",
 		alpha2:  "GH",
 		alpha3:  "GHA",
-    },"GI": {
+	}, "GI": {
 		country: "Gibraltar",
 		alpha2:  "GI",
 		alpha3:  "GIB",
-    },"GR": {
+	}, "GR": {
 		country: "Greece",
 		alpha2:  "GR",
 		alpha3:  "GRC",
-    },"GL": {
+	}, "GL": {
 		country: "Greenland",
 		alpha2:  "GL",
 		alpha3:  "GRL",
-    },"GD": {
+	}, "GD": {
 		country: "Grenada",
 		alpha2:  "GD",
 		alpha3:  "GRD",
-    },"GP": {
+	}, "GP": {
 		country: "Guadeloupe",
 		alpha2:  "GP",
 		alpha3:  "GLP",
-    },"GU": {
+	}, "GU": {
 		country: "Guam",
 		alpha2:  "GU",
 		alpha3:  "GUM",
-    },"GT": {
+	}, "GT": {
 		country: "Guatemala",
 		alpha2:  "GT",
 		alpha3:  "GTM",
-    },"GG": {
+	}, "GG": {
 		country: "Guernsey",
 		alpha2:  "GG",
 		alpha3:  "GGY",
-    },"GN": {
+	}, "GN": {
 		country: "Guinea",
 		alpha2:  "GN",
 		alpha3:  "GIN",
-    },"GW": {
+	}, "GW": {
 		country: "Guinea-Bissau",
 		alpha2:  "GW",
 		alpha3:  "GNB",
-    },"GY": {
+	}, "GY": {
 		country: "Guyana",
 		alpha2:  "GY",
 		alpha3:  "GUY",
-    },"HT": {
+	}, "HT": {
 		country: "Haiti",
 		alpha2:  "HT",
 		alpha3:  "HTI",
-    },"HM": {
+	}, "HM": {
 		country: "Heard Island and McDonald Islands",
 		alpha2:  "HM",
 		alpha3:  "HMD",
-    },"VA": {
+	}, "VA": {
 		country: "Holy See (the)",
 		alpha2:  "VA",
 		alpha3:  "VAT",
-    },"HN": {
+	}, "HN": {
 		country: "Honduras",
 		alpha2:  "HN",
 		alpha3:  "HND",
-    },"HK": {
+	}, "HK": {
 		country: "Hong Kong",
 		alpha2:  "HK",
 		alpha3:  "HKG",
-    },"HU": {
+	}, "HU": {
 		country: "Hungary",
 		alpha2:  "HU",
 		alpha3:  "HUN",
-    },"IS": {
+	}, "IS": {
 		country: "Iceland",
 		alpha2:  "IS",
 		alpha3:  "ISL",
-    },"IN": {
+	}, "IN": {
 		country: "India",
 		alpha2:  "IN",
 		alpha3:  "IND",
-    },"ID": {
+	}, "ID": {
 		country: "Indonesia",
 		alpha2:  "ID",
 		alpha3:  "IDN",
-    },"IR": {
+	}, "IR": {
 		country: "Iran (Islamic Republic of)",
 		alpha2:  "IR",
 		alpha3:  "IRN",
-    },"IQ": {
+	}, "IQ": {
 		country: "Iraq",
 		alpha2:  "IQ",
 		alpha3:  "IRQ",
-    },"IE": {
+	}, "IE": {
 		country: "Ireland",
 		alpha2:  "IE",
 		alpha3:  "IRL",
-    },"IM": {
+	}, "IM": {
 		country: "Isle of Man",
 		alpha2:  "IM",
 		alpha3:  "IMN",
-    },"IL": {
+	}, "IL": {
 		country: "Israel",
 		alpha2:  "IL",
 		alpha3:  "ISR",
-    },"IT": {
+	}, "IT": {
 		country: "Italy",
 		alpha2:  "IT",
 		alpha3:  "ITA",
-    },"JM": {
+	}, "JM": {
 		country: "Jamaica",
 		alpha2:  "JM",
 		alpha3:  "JAM",
-    },"JP": {
+	}, "JP": {
 		country: "Japan",
 		alpha2:  "JP",
 		alpha3:  "JPN",
-    },"JE": {
+	}, "JE": {
 		country: "Jersey",
 		alpha2:  "JE",
 		alpha3:  "JEY",
-    },"JO": {
+	}, "JO": {
 		country: "Jordan",
 		alpha2:  "JO",
 		alpha3:  "JOR",
-    },"KZ": {
+	}, "KZ": {
 		country: "Kazakhstan",
 		alpha2:  "KZ",
 		alpha3:  "KAZ",
-    },"KE": {
+	}, "KE": {
 		country: "Kenya",
 		alpha2:  "KE",
 		alpha3:  "KEN",
-    },"KI": {
+	}, "KI": {
 		country: "Kiribati",
 		alpha2:  "KI",
 		alpha3:  "KIR",
-    },"KP": {
+	}, "KP": {
 		country: "Korea (the Democratic People's Republic of)",
 		alpha2:  "KP",
 		alpha3:  "PRK",
-    },"KR": {
+	}, "KR": {
 		country: "Korea (the Republic of)",
 		alpha2:  "KR",
 		alpha3:  "KOR",
-    },"KW": {
+	}, "KW": {
 		country: "Kuwait",
 		alpha2:  "KW",
 		alpha3:  "KWT",
-    },"KG": {
+	}, "KG": {
 		country: "Kyrgyzstan",
 		alpha2:  "KG",
 		alpha3:  "KGZ",
-    },"LA": {
+	}, "LA": {
 		country: "Lao People's Democratic Republic (the)",
 		alpha2:  "LA",
 		alpha3:  "LAO",
-    },"LV": {
+	}, "LV": {
 		country: "Latvia",
 		alpha2:  "LV",
 		alpha3:  "LVA",
-    },"LB": {
+	}, "LB": {
 		country: "Lebanon",
 		alpha2:  "LB",
 		alpha3:  "LBN",
-    },"LS": {
+	}, "LS": {
 		country: "Lesotho",
 		alpha2:  "LS",
 		alpha3:  "LSO",
-    },"LR": {
+	}, "LR": {
 		country: "Liberia",
 		alpha2:  "LR",
 		alpha3:  "LBR",
-    },"LY": {
+	}, "LY": {
 		country: "Libya",
 		alpha2:  "LY",
 		alpha3:  "LBY",
-    },"LI": {
+	}, "LI": {
 		country: "Liechtenstein",
 		alpha2:  "LI",
 		alpha3:  "LIE",
-    },"LT": {
+	}, "LT": {
 		country: "Lithuania",
 		alpha2:  "LT",
 		alpha3:  "LTU",
-    },"LU": {
+	}, "LU": {
 		country: "Luxembourg",
 		alpha2:  "LU",
 		alpha3:  "LUX",
-    },"MO": {
+	}, "MO": {
 		country: "Macao",
 		alpha2:  "MO",
 		alpha3:  "MAC",
-    },"MG": {
+	}, "MG": {
 		country: "Madagascar",
 		alpha2:  "MG",
 		alpha3:  "MDG",
-    },"MW": {
+	}, "MW": {
 		country: "Malawi",
 		alpha2:  "MW",
 		alpha3:  "MWI",
-    },"MY": {
+	}, "MY": {
 		country: "Malaysia",
 		alpha2:  "MY",
 		alpha3:  "MYS",
-    },"MV": {
+	}, "MV": {
 		country: "Maldives",
 		alpha2:  "MV",
 		alpha3:  "MDV",
-    },"ML": {
+	}, "ML": {
 		country: "Mali",
 		alpha2:  "ML",
 		alpha3:  "MLI",
-    },"MT": {
+	}, "MT": {
 		country: "Malta",
 		alpha2:  "MT",
 		alpha3:  "MLT",
-    },"MH": {
+	}, "MH": {
 		country: "Marshall Islands (the)",
 		alpha2:  "MH",
 		alpha3:  "MHL",
-    },"MQ": {
+	}, "MQ": {
 		country: "Martinique",
 		alpha2:  "MQ",
 		alpha3:  "MTQ",
-    },"MR": {
+	}, "MR": {
 		country: "Mauritania",
 		alpha2:  "MR",
 		alpha3:  "MRT",
-    },"MU": {
+	}, "MU": {
 		country: "Mauritius",
 		alpha2:  "MU",
 		alpha3:  "MUS",
-    },"YT": {
+	}, "YT": {
 		country: "Mayotte",
 		alpha2:  "YT",
 		alpha3:  "MYT",
-    },"MX": {
+	}, "MX": {
 		country: "Mexico",
 		alpha2:  "MX",
 		alpha3:  "MEX",
-    },"FM": {
+	}, "FM": {
 		country: "Micronesia (Federated States of)",
 		alpha2:  "FM",
 		alpha3:  "FSM",
-    },"MD": {
+	}, "MD": {
 		country: "Moldova (the Republic of)",
 		alpha2:  "MD",
 		alpha3:  "MDA",
-    },"MC": {
+	}, "MC": {
 		country: "Monaco",
 		alpha2:  "MC",
 		alpha3:  "MCO",
-    },"MN": {
+	}, "MN": {
 		country: "Mongolia",
 		alpha2:  "MN",
 		alpha3:  "MNG",
-    },"ME": {
+	}, "ME": {
 		country: "Montenegro",
 		alpha2:  "ME",
 		alpha3:  "MNE",
-    },"MS": {
+	}, "MS": {
 		country: "Montserrat",
 		alpha2:  "MS",
 		alpha3:  "MSR",
-    },"MA": {
+	}, "MA": {
 		country: "Morocco",
 		alpha2:  "MA",
 		alpha3:  "MAR",
-    },"MZ": {
+	}, "MZ": {
 		country: "Mozambique",
 		alpha2:  "MZ",
 		alpha3:  "MOZ",
-    },"MM": {
+	}, "MM": {
 		country: "Myanmar",
 		alpha2:  "MM",
 		alpha3:  "MMR",
-    },"NA": {
+	}, "NA": {
 		country: "Namibia",
 		alpha2:  "NA",
 		alpha3:  "NAM",
-    },"NR": {
+	}, "NR": {
 		country: "Nauru",
 		alpha2:  "NR",
 		alpha3:  "NRU",
-    },"NP": {
+	}, "NP": {
 		country: "Nepal",
 		alpha2:  "NP",
 		alpha3:  "NPL",
-    },"NL": {
+	}, "NL": {
 		country: "Netherlands (the)",
 		alpha2:  "NL",
 		alpha3:  "NLD",
-    },"NC": {
+	}, "NC": {
 		country: "New Caledonia",
 		alpha2:  "NC",
 		alpha3:  "NCL",
-    },"NZ": {
+	}, "NZ": {
 		country: "New Zealand",
 		alpha2:  "NZ",
 		alpha3:  "NZL",
-    },"NI": {
+	}, "NI": {
 		country: "Nicaragua",
 		alpha2:  "NI",
 		alpha3:  "NIC",
-    },"NE": {
+	}, "NE": {
 		country: "Niger (the)",
 		alpha2:  "NE",
 		alpha3:  "NER",
-    },"NG": {
+	}, "NG": {
 		country: "Nigeria",
 		alpha2:  "NG",
 		alpha3:  "NGA",
-    },"NU": {
+	}, "NU": {
 		country: "Niue",
 		alpha2:  "NU",
 		alpha3:  "NIU",
-    },"NF": {
+	}, "NF": {
 		country: "Norfolk Island",
 		alpha2:  "NF",
 		alpha3:  "NFK",
-    },"MK": {
+	}, "MK": {
 		country: "North Macedonia",
 		alpha2:  "MK",
 		alpha3:  "MKD",
-    },"MP": {
+	}, "MP": {
 		country: "Northern Mariana Islands (the)",
 		alpha2:  "MP",
 		alpha3:  "MNP",
-    },"NO": {
+	}, "NO": {
 		country: "Norway",
 		alpha2:  "NO",
 		alpha3:  "NOR",
-    },"OM": {
+	}, "OM": {
 		country: "Oman",
 		alpha2:  "OM",
 		alpha3:  "OMN",
-    },"PK": {
+	}, "PK": {
 		country: "Pakistan",
 		alpha2:  "PK",
 		alpha3:  "PAK",
-    },"PW": {
+	}, "PW": {
 		country: "Palau",
 		alpha2:  "PW",
 		alpha3:  "PLW",
-    },"PS": {
+	}, "PS": {
 		country: "Palestine, State of",
 		alpha2:  "PS",
 		alpha3:  "PSE",
-    },"PA": {
+	}, "PA": {
 		country: "Panama",
 		alpha2:  "PA",
 		alpha3:  "PAN",
-    },"PG": {
+	}, "PG": {
 		country: "Papua New Guinea",
 		alpha2:  "PG",
 		alpha3:  "PNG",
-    },"PY": {
+	}, "PY": {
 		country: "Paraguay",
 		alpha2:  "PY",
 		alpha3:  "PRY",
-    },"PE": {
+	}, "PE": {
 		country: "Peru",
 		alpha2:  "PE",
 		alpha3:  "PER",
-    },"PH": {
+	}, "PH": {
 		country: "Philippines (the)",
 		alpha2:  "PH",
 		alpha3:  "PHL",
-    },"PN": {
+	}, "PN": {
 		country: "Pitcairn",
 		alpha2:  "PN",
 		alpha3:  "PCN",
-    },"PL": {
+	}, "PL": {
 		country: "Poland",
 		alpha2:  "PL",
 		alpha3:  "POL",
-    },"PT": {
+	}, "PT": {
 		country: "Portugal",
 		alpha2:  "PT",
 		alpha3:  "PRT",
-    },"PR": {
+	}, "PR": {
 		country: "Puerto Rico",
 		alpha2:  "PR",
 		alpha3:  "PRI",
-    },"QA": {
+	}, "QA": {
 		country: "Qatar",
 		alpha2:  "QA",
 		alpha3:  "QAT",
-    },"RO": {
+	}, "RO": {
 		country: "Romania",
 		alpha2:  "RO",
 		alpha3:  "ROU",
-    },"RU": {
+	}, "RU": {
 		country: "Russian Federation (the)",
 		alpha2:  "RU",
 		alpha3:  "RUS",
-    },"RW": {
+	}, "RW": {
 		country: "Rwanda",
 		alpha2:  "RW",
 		alpha3:  "RWA",
-    },"RE": {
+	}, "RE": {
 		country: "Réunion",
 		alpha2:  "RE",
 		alpha3:  "REU",
-    },"BL": {
+	}, "BL": {
 		country: "Saint Barthélemy",
 		alpha2:  "BL",
 		alpha3:  "BLM",
-    },"SH": {
+	}, "SH": {
 		country: "Saint Helena, Ascension and Tristan da Cunha",
 		alpha2:  "SH",
 		alpha3:  "SHN",
-    },"KN": {
+	}, "KN": {
 		country: "Saint Kitts and Nevis",
 		alpha2:  "KN",
 		alpha3:  "KNA",
-    },"LC": {
+	}, "LC": {
 		country: "Saint Lucia",
 		alpha2:  "LC",
 		alpha3:  "LCA",
-    },"MF": {
+	}, "MF": {
 		country: "Saint Martin (French part)",
 		alpha2:  "MF",
 		alpha3:  "MAF",
-    },"PM": {
+	}, "PM": {
 		country: "Saint Pierre and Miquelon",
 		alpha2:  "PM",
 		alpha3:  "SPM",
-    },"VC": {
+	}, "VC": {
 		country: "Saint Vincent and the Grenadines",
 		alpha2:  "VC",
 		alpha3:  "VCT",
-    },"WS": {
+	}, "WS": {
 		country: "Samoa",
 		alpha2:  "WS",
 		alpha3:  "WSM",
-    },"SM": {
+	}, "SM": {
 		country: "San Marino",
 		alpha2:  "SM",
 		alpha3:  "SMR",
-    },"ST": {
+	}, "ST": {
 		country: "Sao Tome and Principe",
 		alpha2:  "ST",
 		alpha3:  "STP",
-    },"SA": {
+	}, "SA": {
 		country: "Saudi Arabia",
 		alpha2:  "SA",
 		alpha3:  "SAU",
-    },"SN": {
+	}, "SN": {
 		country: "Senegal",
 		alpha2:  "SN",
 		alpha3:  "SEN",
-    },"RS": {
+	}, "RS": {
 		country: "Serbia",
 		alpha2:  "RS",
 		alpha3:  "SRB",
-    },"SC": {
+	}, "SC": {
 		country: "Seychelles",
 		alpha2:  "SC",
 		alpha3:  "SYC",
-    },"SL": {
+	}, "SL": {
 		country: "Sierra Leone",
 		alpha2:  "SL",
 		alpha3:  "SLE",
-    },"SG": {
+	}, "SG": {
 		country: "Singapore",
 		alpha2:  "SG",
 		alpha3:  "SGP",
-    },"SX": {
+	}, "SX": {
 		country: "Sint Maarten (Dutch part)",
 		alpha2:  "SX",
 		alpha3:  "SXM",
-    },"SK": {
+	}, "SK": {
 		country: "Slovakia",
 		alpha2:  "SK",
 		alpha3:  "SVK",
-    },"SI": {
+	}, "SI": {
 		country: "Slovenia",
 		alpha2:  "SI",
 		alpha3:  "SVN",
-    },"SB": {
+	}, "SB": {
 		country: "Solomon Islands",
 		alpha2:  "SB",
 		alpha3:  "SLB",
-    },"SO": {
+	}, "SO": {
 		country: "Somalia",
 		alpha2:  "SO",
 		alpha3:  "SOM",
-    },"ZA": {
+	}, "ZA": {
 		country: "South Africa",
 		alpha2:  "ZA",
 		alpha3:  "ZAF",
-    },"GS": {
+	}, "GS": {
 		country: "South Georgia and the South Sandwich Islands",
 		alpha2:  "GS",
 		alpha3:  "SGS",
-    },"SS": {
+	}, "SS": {
 		country: "South Sudan",
 		alpha2:  "SS",
 		alpha3:  "SSD",
-    },"ES": {
+	}, "ES": {
 		country: "Spain",
 		alpha2:  "ES",
 		alpha3:  "ESP",
-    },"LK": {
+	}, "LK": {
 		country: "Sri Lanka",
 		alpha2:  "LK",
 		alpha3:  "LKA",
-    },"SD": {
+	}, "SD": {
 		country: "Sudan (the)",
 		alpha2:  "SD",
 		alpha3:  "SDN",
-    },"SR": {
+	}, "SR": {
 		country: "Suriname",
 		alpha2:  "SR",
 		alpha3:  "SUR",
-    },"SJ": {
+	}, "SJ": {
 		country: "Svalbard and Jan Mayen",
 		alpha2:  "SJ",
 		alpha3:  "SJM",
-    },"SE": {
+	}, "SE": {
 		country: "Sweden",
 		alpha2:  "SE",
 		alpha3:  "SWE",
-    },"CH": {
+	}, "CH": {
 		country: "Switzerland",
 		alpha2:  "CH",
 		alpha3:  "CHE",
-    },"SY": {
+	}, "SY": {
 		country: "Syrian Arab Republic (the)",
 		alpha2:  "SY",
 		alpha3:  "SYR",
-    },"TW": {
+	}, "TW": {
 		country: "Taiwan (Province of China)",
 		alpha2:  "TW",
 		alpha3:  "TWN",
-    },"TJ": {
+	}, "TJ": {
 		country: "Tajikistan",
 		alpha2:  "TJ",
 		alpha3:  "TJK",
-    },"TZ": {
+	}, "TZ": {
 		country: "Tanzania, the United Republic of",
 		alpha2:  "TZ",
 		alpha3:  "TZA",
-    },"TH": {
+	}, "TH": {
 		country: "Thailand",
 		alpha2:  "TH",
 		alpha3:  "THA",
-    },"TL": {
+	}, "TL": {
 		country: "Timor-Leste",
 		alpha2:  "TL",
 		alpha3:  "TLS",
-    },"TG": {
+	}, "TG": {
 		country: "Togo",
 		alpha2:  "TG",
 		alpha3:  "TGO",
-    },"TK": {
+	}, "TK": {
 		country: "Tokelau",
 		alpha2:  "TK",
 		alpha3:  "TKL",
-    },"TO": {
+	}, "TO": {
 		country: "Tonga",
 		alpha2:  "TO",
 		alpha3:  "TON",
-    },"TT": {
+	}, "TT": {
 		country: "Trinidad and Tobago",
 		alpha2:  "TT",
 		alpha3:  "TTO",
-    },"TN": {
+	}, "TN": {
 		country: "Tunisia",
 		alpha2:  "TN",
 		alpha3:  "TUN",
-    },"TR": {
+	}, "TR": {
 		country: "Turkey",
 		alpha2:  "TR",
 		alpha3:  "TUR",
-    },"TM": {
+	}, "TM": {
 		country: "Turkmenistan",
 		alpha2:  "TM",
 		alpha3:  "TKM",
-    },"TC": {
+	}, "TC": {
 		country: "Turks and Caicos Islands (the)",
 		alpha2:  "TC",
 		alpha3:  "TCA",
-    },"TV": {
+	}, "TV": {
 		country: "Tuvalu",
 		alpha2:  "TV",
 		alpha3:  "TUV",
-    },"UG": {
+	}, "UG": {
 		country: "Uganda",
 		alpha2:  "UG",
 		alpha3:  "UGA",
-    },"UA": {
+	}, "UA": {
 		country: "Ukraine",
 		alpha2:  "UA",
 		alpha3:  "UKR",
-    },"AE": {
+	}, "AE": {
 		country: "United Arab Emirates (the)",
 		alpha2:  "AE",
 		alpha3:  "ARE",
-    },"GB": {
+	}, "GB": {
 		country: "United Kingdom of Great Britain and Northern Ireland (the)",
 		alpha2:  "GB",
 		alpha3:  "GBR",
-    },"UM": {
+	}, "UM": {
 		country: "United States Minor Outlying Islands (the)",
 		alpha2:  "UM",
 		alpha3:  "UMI",
-    },"US": {
+	}, "US": {
 		country: "United States of America (the)",
 		alpha2:  "US",
 		alpha3:  "USA",
-    },"UY": {
+	}, "UY": {
 		country: "Uruguay",
 		alpha2:  "UY",
 		alpha3:  "URY",
-    },"UZ": {
+	}, "UZ": {
 		country: "Uzbekistan",
 		alpha2:  "UZ",
 		alpha3:  "UZB",
-    },"VU": {
+	}, "VU": {
 		country: "Vanuatu",
 		alpha2:  "VU",
 		alpha3:  "VUT",
-    },"VE": {
+	}, "VE": {
 		country: "Venezuela (Bolivarian Republic of)",
 		alpha2:  "VE",
 		alpha3:  "VEN",
-    },"VN": {
+	}, "VN": {
 		country: "Viet Nam",
 		alpha2:  "VN",
 		alpha3:  "VNM",
-    },"VG": {
+	}, "VG": {
 		country: "Virgin Islands (British)",
 		alpha2:  "VG",
 		alpha3:  "VGB",
-    },"VI": {
+	}, "VI": {
 		country: "Virgin Islands (U.S.)",
 		alpha2:  "VI",
 		alpha3:  "VIR",
-    },"WF": {
+	}, "WF": {
 		country: "Wallis and Futuna",
 		alpha2:  "WF",
 		alpha3:  "WLF",
-    },"EH": {
+	}, "EH": {
 		country: "Western Sahara*",
 		alpha2:  "EH",
 		alpha3:  "ESH",
-    },"YE": {
+	}, "YE": {
 		country: "Yemen",
 		alpha2:  "YE",
 		alpha3:  "YEM",
-    },"ZM": {
+	}, "ZM": {
 		country: "Zambia",
 		alpha2:  "ZM",
 		alpha3:  "ZMB",
-    },"ZW": {
+	}, "ZW": {
 		country: "Zimbabwe",
 		alpha2:  "ZW",
 		alpha3:  "ZWE",
-    },"AX": {
+	}, "AX": {
 		country: "Åland Islands",
 		alpha2:  "AX",
 		alpha3:  "ALA",
-    },
+	},
 }
 
 var countryByAlpha3 = map[Alpha3Code]country{
@@ -2006,998 +2006,997 @@ var countryByAlpha3 = map[Alpha3Code]country{
 		country: "Afghanistan",
 		alpha2:  "AF",
 		alpha3:  "AFG",
-    },"ALB": {
+	}, "ALB": {
 		country: "Albania",
 		alpha2:  "AL",
 		alpha3:  "ALB",
-    },"DZA": {
+	}, "DZA": {
 		country: "Algeria",
 		alpha2:  "DZ",
 		alpha3:  "DZA",
-    },"ASM": {
+	}, "ASM": {
 		country: "American Samoa",
 		alpha2:  "AS",
 		alpha3:  "ASM",
-    },"AND": {
+	}, "AND": {
 		country: "Andorra",
 		alpha2:  "AD",
 		alpha3:  "AND",
-    },"AGO": {
+	}, "AGO": {
 		country: "Angola",
 		alpha2:  "AO",
 		alpha3:  "AGO",
-    },"AIA": {
+	}, "AIA": {
 		country: "Anguilla",
 		alpha2:  "AI",
 		alpha3:  "AIA",
-    },"ATA": {
+	}, "ATA": {
 		country: "Antarctica",
 		alpha2:  "AQ",
 		alpha3:  "ATA",
-    },"ATG": {
+	}, "ATG": {
 		country: "Antigua and Barbuda",
 		alpha2:  "AG",
 		alpha3:  "ATG",
-    },"ARG": {
+	}, "ARG": {
 		country: "Argentina",
 		alpha2:  "AR",
 		alpha3:  "ARG",
-    },"ARM": {
+	}, "ARM": {
 		country: "Armenia",
 		alpha2:  "AM",
 		alpha3:  "ARM",
-    },"ABW": {
+	}, "ABW": {
 		country: "Aruba",
 		alpha2:  "AW",
 		alpha3:  "ABW",
-    },"AUS": {
+	}, "AUS": {
 		country: "Australia",
 		alpha2:  "AU",
 		alpha3:  "AUS",
-    },"AUT": {
+	}, "AUT": {
 		country: "Austria",
 		alpha2:  "AT",
 		alpha3:  "AUT",
-    },"AZE": {
+	}, "AZE": {
 		country: "Azerbaijan",
 		alpha2:  "AZ",
 		alpha3:  "AZE",
-    },"BHS": {
+	}, "BHS": {
 		country: "Bahamas (the)",
 		alpha2:  "BS",
 		alpha3:  "BHS",
-    },"BHR": {
+	}, "BHR": {
 		country: "Bahrain",
 		alpha2:  "BH",
 		alpha3:  "BHR",
-    },"BGD": {
+	}, "BGD": {
 		country: "Bangladesh",
 		alpha2:  "BD",
 		alpha3:  "BGD",
-    },"BRB": {
+	}, "BRB": {
 		country: "Barbados",
 		alpha2:  "BB",
 		alpha3:  "BRB",
-    },"BLR": {
+	}, "BLR": {
 		country: "Belarus",
 		alpha2:  "BY",
 		alpha3:  "BLR",
-    },"BEL": {
+	}, "BEL": {
 		country: "Belgium",
 		alpha2:  "BE",
 		alpha3:  "BEL",
-    },"BLZ": {
+	}, "BLZ": {
 		country: "Belize",
 		alpha2:  "BZ",
 		alpha3:  "BLZ",
-    },"BEN": {
+	}, "BEN": {
 		country: "Benin",
 		alpha2:  "BJ",
 		alpha3:  "BEN",
-    },"BMU": {
+	}, "BMU": {
 		country: "Bermuda",
 		alpha2:  "BM",
 		alpha3:  "BMU",
-    },"BTN": {
+	}, "BTN": {
 		country: "Bhutan",
 		alpha2:  "BT",
 		alpha3:  "BTN",
-    },"BOL": {
+	}, "BOL": {
 		country: "Bolivia (Plurinational State of)",
 		alpha2:  "BO",
 		alpha3:  "BOL",
-    },"BES": {
+	}, "BES": {
 		country: "Bonaire, Sint Eustatius and Saba",
 		alpha2:  "BQ",
 		alpha3:  "BES",
-    },"BIH": {
+	}, "BIH": {
 		country: "Bosnia and Herzegovina",
 		alpha2:  "BA",
 		alpha3:  "BIH",
-    },"BWA": {
+	}, "BWA": {
 		country: "Botswana",
 		alpha2:  "BW",
 		alpha3:  "BWA",
-    },"BVT": {
+	}, "BVT": {
 		country: "Bouvet Island",
 		alpha2:  "BV",
 		alpha3:  "BVT",
-    },"BRA": {
+	}, "BRA": {
 		country: "Brazil",
 		alpha2:  "BR",
 		alpha3:  "BRA",
-    },"IOT": {
+	}, "IOT": {
 		country: "British Indian Ocean Territory (the)",
 		alpha2:  "IO",
 		alpha3:  "IOT",
-    },"BRN": {
+	}, "BRN": {
 		country: "Brunei Darussalam",
 		alpha2:  "BN",
 		alpha3:  "BRN",
-    },"BGR": {
+	}, "BGR": {
 		country: "Bulgaria",
 		alpha2:  "BG",
 		alpha3:  "BGR",
-    },"BFA": {
+	}, "BFA": {
 		country: "Burkina Faso",
 		alpha2:  "BF",
 		alpha3:  "BFA",
-    },"BDI": {
+	}, "BDI": {
 		country: "Burundi",
 		alpha2:  "BI",
 		alpha3:  "BDI",
-    },"CPV": {
+	}, "CPV": {
 		country: "Cabo Verde",
 		alpha2:  "CV",
 		alpha3:  "CPV",
-    },"KHM": {
+	}, "KHM": {
 		country: "Cambodia",
 		alpha2:  "KH",
 		alpha3:  "KHM",
-    },"CMR": {
+	}, "CMR": {
 		country: "Cameroon",
 		alpha2:  "CM",
 		alpha3:  "CMR",
-    },"CAN": {
+	}, "CAN": {
 		country: "Canada",
 		alpha2:  "CA",
 		alpha3:  "CAN",
-    },"CYM": {
+	}, "CYM": {
 		country: "Cayman Islands (the)",
 		alpha2:  "KY",
 		alpha3:  "CYM",
-    },"CAF": {
+	}, "CAF": {
 		country: "Central African Republic (the)",
 		alpha2:  "CF",
 		alpha3:  "CAF",
-    },"TCD": {
+	}, "TCD": {
 		country: "Chad",
 		alpha2:  "TD",
 		alpha3:  "TCD",
-    },"CHL": {
+	}, "CHL": {
 		country: "Chile",
 		alpha2:  "CL",
 		alpha3:  "CHL",
-    },"CHN": {
+	}, "CHN": {
 		country: "China",
 		alpha2:  "CN",
 		alpha3:  "CHN",
-    },"CXR": {
+	}, "CXR": {
 		country: "Christmas Island",
 		alpha2:  "CX",
 		alpha3:  "CXR",
-    },"CCK": {
+	}, "CCK": {
 		country: "Cocos (Keeling) Islands (the)",
 		alpha2:  "CC",
 		alpha3:  "CCK",
-    },"COL": {
+	}, "COL": {
 		country: "Colombia",
 		alpha2:  "CO",
 		alpha3:  "COL",
-    },"COM": {
+	}, "COM": {
 		country: "Comoros (the)",
 		alpha2:  "KM",
 		alpha3:  "COM",
-    },"COD": {
+	}, "COD": {
 		country: "Congo (the Democratic Republic of the)",
 		alpha2:  "CD",
 		alpha3:  "COD",
-    },"COG": {
+	}, "COG": {
 		country: "Congo (the)",
 		alpha2:  "CG",
 		alpha3:  "COG",
-    },"COK": {
+	}, "COK": {
 		country: "Cook Islands (the)",
 		alpha2:  "CK",
 		alpha3:  "COK",
-    },"CRI": {
+	}, "CRI": {
 		country: "Costa Rica",
 		alpha2:  "CR",
 		alpha3:  "CRI",
-    },"HRV": {
+	}, "HRV": {
 		country: "Croatia",
 		alpha2:  "HR",
 		alpha3:  "HRV",
-    },"CUB": {
+	}, "CUB": {
 		country: "Cuba",
 		alpha2:  "CU",
 		alpha3:  "CUB",
-    },"CUW": {
+	}, "CUW": {
 		country: "Curaçao",
 		alpha2:  "CW",
 		alpha3:  "CUW",
-    },"CYP": {
+	}, "CYP": {
 		country: "Cyprus",
 		alpha2:  "CY",
 		alpha3:  "CYP",
-    },"CZE": {
+	}, "CZE": {
 		country: "Czechia",
 		alpha2:  "CZ",
 		alpha3:  "CZE",
-    },"CIV": {
+	}, "CIV": {
 		country: "Côte d'Ivoire",
 		alpha2:  "CI",
 		alpha3:  "CIV",
-    },"DNK": {
+	}, "DNK": {
 		country: "Denmark",
 		alpha2:  "DK",
 		alpha3:  "DNK",
-    },"DJI": {
+	}, "DJI": {
 		country: "Djibouti",
 		alpha2:  "DJ",
 		alpha3:  "DJI",
-    },"DMA": {
+	}, "DMA": {
 		country: "Dominica",
 		alpha2:  "DM",
 		alpha3:  "DMA",
-    },"DOM": {
+	}, "DOM": {
 		country: "Dominican Republic (the)",
 		alpha2:  "DO",
 		alpha3:  "DOM",
-    },"ECU": {
+	}, "ECU": {
 		country: "Ecuador",
 		alpha2:  "EC",
 		alpha3:  "ECU",
-    },"EGY": {
+	}, "EGY": {
 		country: "Egypt",
 		alpha2:  "EG",
 		alpha3:  "EGY",
-    },"SLV": {
+	}, "SLV": {
 		country: "El Salvador",
 		alpha2:  "SV",
 		alpha3:  "SLV",
-    },"GNQ": {
+	}, "GNQ": {
 		country: "Equatorial Guinea",
 		alpha2:  "GQ",
 		alpha3:  "GNQ",
-    },"ERI": {
+	}, "ERI": {
 		country: "Eritrea",
 		alpha2:  "ER",
 		alpha3:  "ERI",
-    },"EST": {
+	}, "EST": {
 		country: "Estonia",
 		alpha2:  "EE",
 		alpha3:  "EST",
-    },"SWZ": {
+	}, "SWZ": {
 		country: "Eswatini",
 		alpha2:  "SZ",
 		alpha3:  "SWZ",
-    },"ETH": {
+	}, "ETH": {
 		country: "Ethiopia",
 		alpha2:  "ET",
 		alpha3:  "ETH",
-    },"FLK": {
+	}, "FLK": {
 		country: "Falkland Islands (the) [Malvinas]",
 		alpha2:  "FK",
 		alpha3:  "FLK",
-    },"FRO": {
+	}, "FRO": {
 		country: "Faroe Islands (the)",
 		alpha2:  "FO",
 		alpha3:  "FRO",
-    },"FJI": {
+	}, "FJI": {
 		country: "Fiji",
 		alpha2:  "FJ",
 		alpha3:  "FJI",
-    },"FIN": {
+	}, "FIN": {
 		country: "Finland",
 		alpha2:  "FI",
 		alpha3:  "FIN",
-    },"FRA": {
+	}, "FRA": {
 		country: "France",
 		alpha2:  "FR",
 		alpha3:  "FRA",
-    },"GUF": {
+	}, "GUF": {
 		country: "French Guiana",
 		alpha2:  "GF",
 		alpha3:  "GUF",
-    },"PYF": {
+	}, "PYF": {
 		country: "French Polynesia",
 		alpha2:  "PF",
 		alpha3:  "PYF",
-    },"ATF": {
+	}, "ATF": {
 		country: "French Southern Territories (the)",
 		alpha2:  "TF",
 		alpha3:  "ATF",
-    },"GAB": {
+	}, "GAB": {
 		country: "Gabon",
 		alpha2:  "GA",
 		alpha3:  "GAB",
-    },"GMB": {
+	}, "GMB": {
 		country: "Gambia (the)",
 		alpha2:  "GM",
 		alpha3:  "GMB",
-    },"GEO": {
+	}, "GEO": {
 		country: "Georgia",
 		alpha2:  "GE",
 		alpha3:  "GEO",
-    },"DEU": {
+	}, "DEU": {
 		country: "Germany",
 		alpha2:  "DE",
 		alpha3:  "DEU",
-    },"GHA": {
+	}, "GHA": {
 		country: "Ghana",
 		alpha2:  "GH",
 		alpha3:  "GHA",
-    },"GIB": {
+	}, "GIB": {
 		country: "Gibraltar",
 		alpha2:  "GI",
 		alpha3:  "GIB",
-    },"GRC": {
+	}, "GRC": {
 		country: "Greece",
 		alpha2:  "GR",
 		alpha3:  "GRC",
-    },"GRL": {
+	}, "GRL": {
 		country: "Greenland",
 		alpha2:  "GL",
 		alpha3:  "GRL",
-    },"GRD": {
+	}, "GRD": {
 		country: "Grenada",
 		alpha2:  "GD",
 		alpha3:  "GRD",
-    },"GLP": {
+	}, "GLP": {
 		country: "Guadeloupe",
 		alpha2:  "GP",
 		alpha3:  "GLP",
-    },"GUM": {
+	}, "GUM": {
 		country: "Guam",
 		alpha2:  "GU",
 		alpha3:  "GUM",
-    },"GTM": {
+	}, "GTM": {
 		country: "Guatemala",
 		alpha2:  "GT",
 		alpha3:  "GTM",
-    },"GGY": {
+	}, "GGY": {
 		country: "Guernsey",
 		alpha2:  "GG",
 		alpha3:  "GGY",
-    },"GIN": {
+	}, "GIN": {
 		country: "Guinea",
 		alpha2:  "GN",
 		alpha3:  "GIN",
-    },"GNB": {
+	}, "GNB": {
 		country: "Guinea-Bissau",
 		alpha2:  "GW",
 		alpha3:  "GNB",
-    },"GUY": {
+	}, "GUY": {
 		country: "Guyana",
 		alpha2:  "GY",
 		alpha3:  "GUY",
-    },"HTI": {
+	}, "HTI": {
 		country: "Haiti",
 		alpha2:  "HT",
 		alpha3:  "HTI",
-    },"HMD": {
+	}, "HMD": {
 		country: "Heard Island and McDonald Islands",
 		alpha2:  "HM",
 		alpha3:  "HMD",
-    },"VAT": {
+	}, "VAT": {
 		country: "Holy See (the)",
 		alpha2:  "VA",
 		alpha3:  "VAT",
-    },"HND": {
+	}, "HND": {
 		country: "Honduras",
 		alpha2:  "HN",
 		alpha3:  "HND",
-    },"HKG": {
+	}, "HKG": {
 		country: "Hong Kong",
 		alpha2:  "HK",
 		alpha3:  "HKG",
-    },"HUN": {
+	}, "HUN": {
 		country: "Hungary",
 		alpha2:  "HU",
 		alpha3:  "HUN",
-    },"ISL": {
+	}, "ISL": {
 		country: "Iceland",
 		alpha2:  "IS",
 		alpha3:  "ISL",
-    },"IND": {
+	}, "IND": {
 		country: "India",
 		alpha2:  "IN",
 		alpha3:  "IND",
-    },"IDN": {
+	}, "IDN": {
 		country: "Indonesia",
 		alpha2:  "ID",
 		alpha3:  "IDN",
-    },"IRN": {
+	}, "IRN": {
 		country: "Iran (Islamic Republic of)",
 		alpha2:  "IR",
 		alpha3:  "IRN",
-    },"IRQ": {
+	}, "IRQ": {
 		country: "Iraq",
 		alpha2:  "IQ",
 		alpha3:  "IRQ",
-    },"IRL": {
+	}, "IRL": {
 		country: "Ireland",
 		alpha2:  "IE",
 		alpha3:  "IRL",
-    },"IMN": {
+	}, "IMN": {
 		country: "Isle of Man",
 		alpha2:  "IM",
 		alpha3:  "IMN",
-    },"ISR": {
+	}, "ISR": {
 		country: "Israel",
 		alpha2:  "IL",
 		alpha3:  "ISR",
-    },"ITA": {
+	}, "ITA": {
 		country: "Italy",
 		alpha2:  "IT",
 		alpha3:  "ITA",
-    },"JAM": {
+	}, "JAM": {
 		country: "Jamaica",
 		alpha2:  "JM",
 		alpha3:  "JAM",
-    },"JPN": {
+	}, "JPN": {
 		country: "Japan",
 		alpha2:  "JP",
 		alpha3:  "JPN",
-    },"JEY": {
+	}, "JEY": {
 		country: "Jersey",
 		alpha2:  "JE",
 		alpha3:  "JEY",
-    },"JOR": {
+	}, "JOR": {
 		country: "Jordan",
 		alpha2:  "JO",
 		alpha3:  "JOR",
-    },"KAZ": {
+	}, "KAZ": {
 		country: "Kazakhstan",
 		alpha2:  "KZ",
 		alpha3:  "KAZ",
-    },"KEN": {
+	}, "KEN": {
 		country: "Kenya",
 		alpha2:  "KE",
 		alpha3:  "KEN",
-    },"KIR": {
+	}, "KIR": {
 		country: "Kiribati",
 		alpha2:  "KI",
 		alpha3:  "KIR",
-    },"PRK": {
+	}, "PRK": {
 		country: "Korea (the Democratic People's Republic of)",
 		alpha2:  "KP",
 		alpha3:  "PRK",
-    },"KOR": {
+	}, "KOR": {
 		country: "Korea (the Republic of)",
 		alpha2:  "KR",
 		alpha3:  "KOR",
-    },"KWT": {
+	}, "KWT": {
 		country: "Kuwait",
 		alpha2:  "KW",
 		alpha3:  "KWT",
-    },"KGZ": {
+	}, "KGZ": {
 		country: "Kyrgyzstan",
 		alpha2:  "KG",
 		alpha3:  "KGZ",
-    },"LAO": {
+	}, "LAO": {
 		country: "Lao People's Democratic Republic (the)",
 		alpha2:  "LA",
 		alpha3:  "LAO",
-    },"LVA": {
+	}, "LVA": {
 		country: "Latvia",
 		alpha2:  "LV",
 		alpha3:  "LVA",
-    },"LBN": {
+	}, "LBN": {
 		country: "Lebanon",
 		alpha2:  "LB",
 		alpha3:  "LBN",
-    },"LSO": {
+	}, "LSO": {
 		country: "Lesotho",
 		alpha2:  "LS",
 		alpha3:  "LSO",
-    },"LBR": {
+	}, "LBR": {
 		country: "Liberia",
 		alpha2:  "LR",
 		alpha3:  "LBR",
-    },"LBY": {
+	}, "LBY": {
 		country: "Libya",
 		alpha2:  "LY",
 		alpha3:  "LBY",
-    },"LIE": {
+	}, "LIE": {
 		country: "Liechtenstein",
 		alpha2:  "LI",
 		alpha3:  "LIE",
-    },"LTU": {
+	}, "LTU": {
 		country: "Lithuania",
 		alpha2:  "LT",
 		alpha3:  "LTU",
-    },"LUX": {
+	}, "LUX": {
 		country: "Luxembourg",
 		alpha2:  "LU",
 		alpha3:  "LUX",
-    },"MAC": {
+	}, "MAC": {
 		country: "Macao",
 		alpha2:  "MO",
 		alpha3:  "MAC",
-    },"MDG": {
+	}, "MDG": {
 		country: "Madagascar",
 		alpha2:  "MG",
 		alpha3:  "MDG",
-    },"MWI": {
+	}, "MWI": {
 		country: "Malawi",
 		alpha2:  "MW",
 		alpha3:  "MWI",
-    },"MYS": {
+	}, "MYS": {
 		country: "Malaysia",
 		alpha2:  "MY",
 		alpha3:  "MYS",
-    },"MDV": {
+	}, "MDV": {
 		country: "Maldives",
 		alpha2:  "MV",
 		alpha3:  "MDV",
-    },"MLI": {
+	}, "MLI": {
 		country: "Mali",
 		alpha2:  "ML",
 		alpha3:  "MLI",
-    },"MLT": {
+	}, "MLT": {
 		country: "Malta",
 		alpha2:  "MT",
 		alpha3:  "MLT",
-    },"MHL": {
+	}, "MHL": {
 		country: "Marshall Islands (the)",
 		alpha2:  "MH",
 		alpha3:  "MHL",
-    },"MTQ": {
+	}, "MTQ": {
 		country: "Martinique",
 		alpha2:  "MQ",
 		alpha3:  "MTQ",
-    },"MRT": {
+	}, "MRT": {
 		country: "Mauritania",
 		alpha2:  "MR",
 		alpha3:  "MRT",
-    },"MUS": {
+	}, "MUS": {
 		country: "Mauritius",
 		alpha2:  "MU",
 		alpha3:  "MUS",
-    },"MYT": {
+	}, "MYT": {
 		country: "Mayotte",
 		alpha2:  "YT",
 		alpha3:  "MYT",
-    },"MEX": {
+	}, "MEX": {
 		country: "Mexico",
 		alpha2:  "MX",
 		alpha3:  "MEX",
-    },"FSM": {
+	}, "FSM": {
 		country: "Micronesia (Federated States of)",
 		alpha2:  "FM",
 		alpha3:  "FSM",
-    },"MDA": {
+	}, "MDA": {
 		country: "Moldova (the Republic of)",
 		alpha2:  "MD",
 		alpha3:  "MDA",
-    },"MCO": {
+	}, "MCO": {
 		country: "Monaco",
 		alpha2:  "MC",
 		alpha3:  "MCO",
-    },"MNG": {
+	}, "MNG": {
 		country: "Mongolia",
 		alpha2:  "MN",
 		alpha3:  "MNG",
-    },"MNE": {
+	}, "MNE": {
 		country: "Montenegro",
 		alpha2:  "ME",
 		alpha3:  "MNE",
-    },"MSR": {
+	}, "MSR": {
 		country: "Montserrat",
 		alpha2:  "MS",
 		alpha3:  "MSR",
-    },"MAR": {
+	}, "MAR": {
 		country: "Morocco",
 		alpha2:  "MA",
 		alpha3:  "MAR",
-    },"MOZ": {
+	}, "MOZ": {
 		country: "Mozambique",
 		alpha2:  "MZ",
 		alpha3:  "MOZ",
-    },"MMR": {
+	}, "MMR": {
 		country: "Myanmar",
 		alpha2:  "MM",
 		alpha3:  "MMR",
-    },"NAM": {
+	}, "NAM": {
 		country: "Namibia",
 		alpha2:  "NA",
 		alpha3:  "NAM",
-    },"NRU": {
+	}, "NRU": {
 		country: "Nauru",
 		alpha2:  "NR",
 		alpha3:  "NRU",
-    },"NPL": {
+	}, "NPL": {
 		country: "Nepal",
 		alpha2:  "NP",
 		alpha3:  "NPL",
-    },"NLD": {
+	}, "NLD": {
 		country: "Netherlands (the)",
 		alpha2:  "NL",
 		alpha3:  "NLD",
-    },"NCL": {
+	}, "NCL": {
 		country: "New Caledonia",
 		alpha2:  "NC",
 		alpha3:  "NCL",
-    },"NZL": {
+	}, "NZL": {
 		country: "New Zealand",
 		alpha2:  "NZ",
 		alpha3:  "NZL",
-    },"NIC": {
+	}, "NIC": {
 		country: "Nicaragua",
 		alpha2:  "NI",
 		alpha3:  "NIC",
-    },"NER": {
+	}, "NER": {
 		country: "Niger (the)",
 		alpha2:  "NE",
 		alpha3:  "NER",
-    },"NGA": {
+	}, "NGA": {
 		country: "Nigeria",
 		alpha2:  "NG",
 		alpha3:  "NGA",
-    },"NIU": {
+	}, "NIU": {
 		country: "Niue",
 		alpha2:  "NU",
 		alpha3:  "NIU",
-    },"NFK": {
+	}, "NFK": {
 		country: "Norfolk Island",
 		alpha2:  "NF",
 		alpha3:  "NFK",
-    },"MKD": {
+	}, "MKD": {
 		country: "North Macedonia",
 		alpha2:  "MK",
 		alpha3:  "MKD",
-    },"MNP": {
+	}, "MNP": {
 		country: "Northern Mariana Islands (the)",
 		alpha2:  "MP",
 		alpha3:  "MNP",
-    },"NOR": {
+	}, "NOR": {
 		country: "Norway",
 		alpha2:  "NO",
 		alpha3:  "NOR",
-    },"OMN": {
+	}, "OMN": {
 		country: "Oman",
 		alpha2:  "OM",
 		alpha3:  "OMN",
-    },"PAK": {
+	}, "PAK": {
 		country: "Pakistan",
 		alpha2:  "PK",
 		alpha3:  "PAK",
-    },"PLW": {
+	}, "PLW": {
 		country: "Palau",
 		alpha2:  "PW",
 		alpha3:  "PLW",
-    },"PSE": {
+	}, "PSE": {
 		country: "Palestine, State of",
 		alpha2:  "PS",
 		alpha3:  "PSE",
-    },"PAN": {
+	}, "PAN": {
 		country: "Panama",
 		alpha2:  "PA",
 		alpha3:  "PAN",
-    },"PNG": {
+	}, "PNG": {
 		country: "Papua New Guinea",
 		alpha2:  "PG",
 		alpha3:  "PNG",
-    },"PRY": {
+	}, "PRY": {
 		country: "Paraguay",
 		alpha2:  "PY",
 		alpha3:  "PRY",
-    },"PER": {
+	}, "PER": {
 		country: "Peru",
 		alpha2:  "PE",
 		alpha3:  "PER",
-    },"PHL": {
+	}, "PHL": {
 		country: "Philippines (the)",
 		alpha2:  "PH",
 		alpha3:  "PHL",
-    },"PCN": {
+	}, "PCN": {
 		country: "Pitcairn",
 		alpha2:  "PN",
 		alpha3:  "PCN",
-    },"POL": {
+	}, "POL": {
 		country: "Poland",
 		alpha2:  "PL",
 		alpha3:  "POL",
-    },"PRT": {
+	}, "PRT": {
 		country: "Portugal",
 		alpha2:  "PT",
 		alpha3:  "PRT",
-    },"PRI": {
+	}, "PRI": {
 		country: "Puerto Rico",
 		alpha2:  "PR",
 		alpha3:  "PRI",
-    },"QAT": {
+	}, "QAT": {
 		country: "Qatar",
 		alpha2:  "QA",
 		alpha3:  "QAT",
-    },"ROU": {
+	}, "ROU": {
 		country: "Romania",
 		alpha2:  "RO",
 		alpha3:  "ROU",
-    },"RUS": {
+	}, "RUS": {
 		country: "Russian Federation (the)",
 		alpha2:  "RU",
 		alpha3:  "RUS",
-    },"RWA": {
+	}, "RWA": {
 		country: "Rwanda",
 		alpha2:  "RW",
 		alpha3:  "RWA",
-    },"REU": {
+	}, "REU": {
 		country: "Réunion",
 		alpha2:  "RE",
 		alpha3:  "REU",
-    },"BLM": {
+	}, "BLM": {
 		country: "Saint Barthélemy",
 		alpha2:  "BL",
 		alpha3:  "BLM",
-    },"SHN": {
+	}, "SHN": {
 		country: "Saint Helena, Ascension and Tristan da Cunha",
 		alpha2:  "SH",
 		alpha3:  "SHN",
-    },"KNA": {
+	}, "KNA": {
 		country: "Saint Kitts and Nevis",
 		alpha2:  "KN",
 		alpha3:  "KNA",
-    },"LCA": {
+	}, "LCA": {
 		country: "Saint Lucia",
 		alpha2:  "LC",
 		alpha3:  "LCA",
-    },"MAF": {
+	}, "MAF": {
 		country: "Saint Martin (French part)",
 		alpha2:  "MF",
 		alpha3:  "MAF",
-    },"SPM": {
+	}, "SPM": {
 		country: "Saint Pierre and Miquelon",
 		alpha2:  "PM",
 		alpha3:  "SPM",
-    },"VCT": {
+	}, "VCT": {
 		country: "Saint Vincent and the Grenadines",
 		alpha2:  "VC",
 		alpha3:  "VCT",
-    },"WSM": {
+	}, "WSM": {
 		country: "Samoa",
 		alpha2:  "WS",
 		alpha3:  "WSM",
-    },"SMR": {
+	}, "SMR": {
 		country: "San Marino",
 		alpha2:  "SM",
 		alpha3:  "SMR",
-    },"STP": {
+	}, "STP": {
 		country: "Sao Tome and Principe",
 		alpha2:  "ST",
 		alpha3:  "STP",
-    },"SAU": {
+	}, "SAU": {
 		country: "Saudi Arabia",
 		alpha2:  "SA",
 		alpha3:  "SAU",
-    },"SEN": {
+	}, "SEN": {
 		country: "Senegal",
 		alpha2:  "SN",
 		alpha3:  "SEN",
-    },"SRB": {
+	}, "SRB": {
 		country: "Serbia",
 		alpha2:  "RS",
 		alpha3:  "SRB",
-    },"SYC": {
+	}, "SYC": {
 		country: "Seychelles",
 		alpha2:  "SC",
 		alpha3:  "SYC",
-    },"SLE": {
+	}, "SLE": {
 		country: "Sierra Leone",
 		alpha2:  "SL",
 		alpha3:  "SLE",
-    },"SGP": {
+	}, "SGP": {
 		country: "Singapore",
 		alpha2:  "SG",
 		alpha3:  "SGP",
-    },"SXM": {
+	}, "SXM": {
 		country: "Sint Maarten (Dutch part)",
 		alpha2:  "SX",
 		alpha3:  "SXM",
-    },"SVK": {
+	}, "SVK": {
 		country: "Slovakia",
 		alpha2:  "SK",
 		alpha3:  "SVK",
-    },"SVN": {
+	}, "SVN": {
 		country: "Slovenia",
 		alpha2:  "SI",
 		alpha3:  "SVN",
-    },"SLB": {
+	}, "SLB": {
 		country: "Solomon Islands",
 		alpha2:  "SB",
 		alpha3:  "SLB",
-    },"SOM": {
+	}, "SOM": {
 		country: "Somalia",
 		alpha2:  "SO",
 		alpha3:  "SOM",
-    },"ZAF": {
+	}, "ZAF": {
 		country: "South Africa",
 		alpha2:  "ZA",
 		alpha3:  "ZAF",
-    },"SGS": {
+	}, "SGS": {
 		country: "South Georgia and the South Sandwich Islands",
 		alpha2:  "GS",
 		alpha3:  "SGS",
-    },"SSD": {
+	}, "SSD": {
 		country: "South Sudan",
 		alpha2:  "SS",
 		alpha3:  "SSD",
-    },"ESP": {
+	}, "ESP": {
 		country: "Spain",
 		alpha2:  "ES",
 		alpha3:  "ESP",
-    },"LKA": {
+	}, "LKA": {
 		country: "Sri Lanka",
 		alpha2:  "LK",
 		alpha3:  "LKA",
-    },"SDN": {
+	}, "SDN": {
 		country: "Sudan (the)",
 		alpha2:  "SD",
 		alpha3:  "SDN",
-    },"SUR": {
+	}, "SUR": {
 		country: "Suriname",
 		alpha2:  "SR",
 		alpha3:  "SUR",
-    },"SJM": {
+	}, "SJM": {
 		country: "Svalbard and Jan Mayen",
 		alpha2:  "SJ",
 		alpha3:  "SJM",
-    },"SWE": {
+	}, "SWE": {
 		country: "Sweden",
 		alpha2:  "SE",
 		alpha3:  "SWE",
-    },"CHE": {
+	}, "CHE": {
 		country: "Switzerland",
 		alpha2:  "CH",
 		alpha3:  "CHE",
-    },"SYR": {
+	}, "SYR": {
 		country: "Syrian Arab Republic (the)",
 		alpha2:  "SY",
 		alpha3:  "SYR",
-    },"TWN": {
+	}, "TWN": {
 		country: "Taiwan (Province of China)",
 		alpha2:  "TW",
 		alpha3:  "TWN",
-    },"TJK": {
+	}, "TJK": {
 		country: "Tajikistan",
 		alpha2:  "TJ",
 		alpha3:  "TJK",
-    },"TZA": {
+	}, "TZA": {
 		country: "Tanzania, the United Republic of",
 		alpha2:  "TZ",
 		alpha3:  "TZA",
-    },"THA": {
+	}, "THA": {
 		country: "Thailand",
 		alpha2:  "TH",
 		alpha3:  "THA",
-    },"TLS": {
+	}, "TLS": {
 		country: "Timor-Leste",
 		alpha2:  "TL",
 		alpha3:  "TLS",
-    },"TGO": {
+	}, "TGO": {
 		country: "Togo",
 		alpha2:  "TG",
 		alpha3:  "TGO",
-    },"TKL": {
+	}, "TKL": {
 		country: "Tokelau",
 		alpha2:  "TK",
 		alpha3:  "TKL",
-    },"TON": {
+	}, "TON": {
 		country: "Tonga",
 		alpha2:  "TO",
 		alpha3:  "TON",
-    },"TTO": {
+	}, "TTO": {
 		country: "Trinidad and Tobago",
 		alpha2:  "TT",
 		alpha3:  "TTO",
-    },"TUN": {
+	}, "TUN": {
 		country: "Tunisia",
 		alpha2:  "TN",
 		alpha3:  "TUN",
-    },"TUR": {
+	}, "TUR": {
 		country: "Turkey",
 		alpha2:  "TR",
 		alpha3:  "TUR",
-    },"TKM": {
+	}, "TKM": {
 		country: "Turkmenistan",
 		alpha2:  "TM",
 		alpha3:  "TKM",
-    },"TCA": {
+	}, "TCA": {
 		country: "Turks and Caicos Islands (the)",
 		alpha2:  "TC",
 		alpha3:  "TCA",
-    },"TUV": {
+	}, "TUV": {
 		country: "Tuvalu",
 		alpha2:  "TV",
 		alpha3:  "TUV",
-    },"UGA": {
+	}, "UGA": {
 		country: "Uganda",
 		alpha2:  "UG",
 		alpha3:  "UGA",
-    },"UKR": {
+	}, "UKR": {
 		country: "Ukraine",
 		alpha2:  "UA",
 		alpha3:  "UKR",
-    },"ARE": {
+	}, "ARE": {
 		country: "United Arab Emirates (the)",
 		alpha2:  "AE",
 		alpha3:  "ARE",
-    },"GBR": {
+	}, "GBR": {
 		country: "United Kingdom of Great Britain and Northern Ireland (the)",
 		alpha2:  "GB",
 		alpha3:  "GBR",
-    },"UMI": {
+	}, "UMI": {
 		country: "United States Minor Outlying Islands (the)",
 		alpha2:  "UM",
 		alpha3:  "UMI",
-    },"USA": {
+	}, "USA": {
 		country: "United States of America (the)",
 		alpha2:  "US",
 		alpha3:  "USA",
-    },"URY": {
+	}, "URY": {
 		country: "Uruguay",
 		alpha2:  "UY",
 		alpha3:  "URY",
-    },"UZB": {
+	}, "UZB": {
 		country: "Uzbekistan",
 		alpha2:  "UZ",
 		alpha3:  "UZB",
-    },"VUT": {
+	}, "VUT": {
 		country: "Vanuatu",
 		alpha2:  "VU",
 		alpha3:  "VUT",
-    },"VEN": {
+	}, "VEN": {
 		country: "Venezuela (Bolivarian Republic of)",
 		alpha2:  "VE",
 		alpha3:  "VEN",
-    },"VNM": {
+	}, "VNM": {
 		country: "Viet Nam",
 		alpha2:  "VN",
 		alpha3:  "VNM",
-    },"VGB": {
+	}, "VGB": {
 		country: "Virgin Islands (British)",
 		alpha2:  "VG",
 		alpha3:  "VGB",
-    },"VIR": {
+	}, "VIR": {
 		country: "Virgin Islands (U.S.)",
 		alpha2:  "VI",
 		alpha3:  "VIR",
-    },"WLF": {
+	}, "WLF": {
 		country: "Wallis and Futuna",
 		alpha2:  "WF",
 		alpha3:  "WLF",
-    },"ESH": {
+	}, "ESH": {
 		country: "Western Sahara*",
 		alpha2:  "EH",
 		alpha3:  "ESH",
-    },"YEM": {
+	}, "YEM": {
 		country: "Yemen",
 		alpha2:  "YE",
 		alpha3:  "YEM",
-    },"ZMB": {
+	}, "ZMB": {
 		country: "Zambia",
 		alpha2:  "ZM",
 		alpha3:  "ZMB",
-    },"ZWE": {
+	}, "ZWE": {
 		country: "Zimbabwe",
 		alpha2:  "ZW",
 		alpha3:  "ZWE",
-    },"ALA": {
+	}, "ALA": {
 		country: "Åland Islands",
 		alpha2:  "AX",
 		alpha3:  "ALA",
-    },
+	},
 }
-
