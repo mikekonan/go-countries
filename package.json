@@ -1,0 +1,22 @@
+{
+  "name": "go-countries",
+  "version": "1.0.0",
+  "description": "codegenerator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikekonan/go-countries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikekonan/go-countries/issues"
+  },
+  "homepage": "https://github.com/mikekonan/go-countries#readme",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
