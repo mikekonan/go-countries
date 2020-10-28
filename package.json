@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "docker run mikekonan/iso-3166-country-codes-scrapper:latest | docker run -i -v $(PWD)/app.js:/app/app.js node:12.19.0-alpine3.10 node /app/app.js > $(PWD)/kek.go"
+    "generate": "docker run mikekonan/iso-3166-country-codes-scrapper:latest | docker run -i -v $(PWD)/app.js:/app/app.js node:12.19.0-alpine3.10 node /app/app.js > $(PWD)/country_data.go"
   },
   "repository": {
     "type": "git",
