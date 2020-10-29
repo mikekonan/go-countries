@@ -10,7 +10,7 @@ import (
 type Name string
 
 func (name Name) Value() (value driver.Value, err error) {
-	if err = name.Validate(nil); err != nil {
+	if _, err = ByNameErr(name); err != nil {
 		return nil, err
 	}
 
@@ -18,7 +18,7 @@ func (name Name) Value() (value driver.Value, err error) {
 }
 
 func (name Name) Validate(_ interface{}) (err error) {
-	_, err = ByCountryErr(name)
+	_, err = ByNameErr(name)
 
 	return nil
 }
@@ -34,7 +34,7 @@ func (name Name) String() string {
 type Alpha2Code string
 
 func (code Alpha2Code) Value() (value driver.Value, err error) {
-	if err = code.Validate(nil); err != nil {
+	if _, err = ByAlpha2CodeErr(code); err != nil {
 		return nil, err
 	}
 
@@ -57,22 +57,22 @@ func (code Alpha2Code) String() string {
 
 type Alpha3Code string
 
-func (c Alpha3Code) Value() (value driver.Value, err error) {
-	if err = c.Validate(nil); err != nil {
+func (code Alpha3Code) Value() (value driver.Value, err error) {
+	if _, err = ByAlpha3CodeErr(code); err != nil {
 		return nil, err
 	}
 
-	return c, nil
+	return code, nil
 }
 
-func (c Alpha3Code) Validate(_ interface{}) (err error) {
-	_, err = ByAlpha3CodeErr(c)
+func (code Alpha3Code) Validate(_ interface{}) (err error) {
+	_, err = ByAlpha3CodeErr(code)
 
 	return
 }
 
-func (c Alpha3Code) IsSet() bool {
-	return len(string(c)) > 0
+func (code Alpha3Code) IsSet() bool {
+	return len(string(code)) > 0
 }
 
 func (code Alpha3Code) String() string {
@@ -138,18 +138,18 @@ func ByAlpha2CodeStrErr(code string) (result Country, err error) {
 	return ByAlpha2CodeErr(Alpha2Code(strings.ToUpper(code)))
 }
 
-func ByCountry(country Name) (result Country, ok bool) {
+func ByName(country Name) (result Country, ok bool) {
 	result, ok = countryByName[country]
 	return
 }
 
-func ByCountryStr(country string) (result Country, ok bool) {
-	return ByCountry(Name(strings.ToUpper(country)))
+func ByNameStr(country string) (result Country, ok bool) {
+	return ByName(Name(strings.ToUpper(country)))
 }
 
-func ByCountryErr(country Name) (result Country, err error) {
+func ByNameErr(country Name) (result Country, err error) {
 	var ok bool
-	result, ok = ByCountry(country)
+	result, ok = ByName(country)
 	if !ok {
 		err = fmt.Errorf("'%s' is not valid ISO-3166 Country name", country)
 	}
@@ -157,6 +157,6 @@ func ByCountryErr(country Name) (result Country, err error) {
 	return
 }
 
-func ByCountryStrErr(country string) (result Country, err error) {
-	return ByCountryErr(Name(strings.ToUpper(country)))
+func ByNameStrErr(country string) (result Country, err error) {
+	return ByNameErr(Name(strings.ToUpper(country)))
 }
