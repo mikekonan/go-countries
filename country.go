@@ -14,7 +14,7 @@ func (name Name) Value() (value driver.Value, err error) {
 		return nil, err
 	}
 
-	return name, nil
+	return name.String(), nil
 }
 
 func (name Name) Validate(_ interface{}) (err error) {
@@ -38,7 +38,7 @@ func (code Alpha2Code) Value() (value driver.Value, err error) {
 		return nil, err
 	}
 
-	return code, nil
+	return code.String(), nil
 }
 
 func (code Alpha2Code) Validate(_ interface{}) (err error) {
@@ -62,7 +62,7 @@ func (code Alpha3Code) Value() (value driver.Value, err error) {
 		return nil, err
 	}
 
-	return code, nil
+	return code.String(), nil
 }
 
 func (code Alpha3Code) Validate(_ interface{}) (err error) {
