@@ -68,12 +68,12 @@ func (c Alpha3Code) IsSet() bool {
 }
 
 type Country struct {
-	country Name
-	alpha2  Alpha2Code
-	alpha3  Alpha3Code
+	name   Name
+	alpha2 Alpha2Code
+	alpha3 Alpha3Code
 }
 
-func (c Country) Country() Name          { return c.country }
+func (c Country) Name() Name             { return c.name }
 func (c Country) Alpha2Code() Alpha2Code { return c.alpha2 }
 func (c Country) Alpha3Code() Alpha3Code { return c.alpha3 }
 
@@ -124,7 +124,7 @@ func ByAlpha2CodeStrErr(code string) (result Country, err error) {
 }
 
 func ByCountry(country Name) (result Country, ok bool) {
-	result, ok = countryByCountry[country]
+	result, ok = countryByName[country]
 	return
 }
 
