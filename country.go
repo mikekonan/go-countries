@@ -9,42 +9,50 @@ import (
 
 type Name string
 
-func (c Name) Value() (value driver.Value, err error) {
-	if err = c.Validate(nil); err != nil {
+func (name Name) Value() (value driver.Value, err error) {
+	if err = name.Validate(nil); err != nil {
 		return nil, err
 	}
 
-	return c, nil
+	return name, nil
 }
 
-func (c Name) Validate(_ interface{}) (err error) {
-	_, err = ByCountryErr(c)
+func (name Name) Validate(_ interface{}) (err error) {
+	_, err = ByCountryErr(name)
 
 	return nil
 }
 
-func (c Name) IsSet() bool {
-	return len(string(c)) > 0
+func (name Name) IsSet() bool {
+	return len(string(name)) > 0
+}
+
+func (name Name) String() string {
+	return string(name)
 }
 
 type Alpha2Code string
 
-func (c Alpha2Code) Value() (value driver.Value, err error) {
-	if err = c.Validate(nil); err != nil {
+func (code Alpha2Code) Value() (value driver.Value, err error) {
+	if err = code.Validate(nil); err != nil {
 		return nil, err
 	}
 
-	return c, nil
+	return code, nil
 }
 
-func (c Alpha2Code) Validate(_ interface{}) (err error) {
-	_, err = ByAlpha2CodeErr(c)
+func (code Alpha2Code) Validate(_ interface{}) (err error) {
+	_, err = ByAlpha2CodeErr(code)
 
 	return
 }
 
-func (c Alpha2Code) IsSet() bool {
-	return len(string(c)) > 0
+func (code Alpha2Code) IsSet() bool {
+	return len(string(code)) > 0
+}
+
+func (code Alpha2Code) String() string {
+	return string(code)
 }
 
 type Alpha3Code string
@@ -67,6 +75,10 @@ func (c Alpha3Code) IsSet() bool {
 	return len(string(c)) > 0
 }
 
+func (code Alpha3Code) String() string {
+	return string(code)
+}
+
 type Country struct {
 	name   Name
 	alpha2 Alpha2Code
@@ -76,6 +88,9 @@ type Country struct {
 func (c Country) Name() Name             { return c.name }
 func (c Country) Alpha2Code() Alpha2Code { return c.alpha2 }
 func (c Country) Alpha3Code() Alpha3Code { return c.alpha3 }
+func (c Country) NameStr() string        { return c.name.String() }
+func (c Country) Alpha2CodeStr() string  { return c.alpha2.String() }
+func (c Country) Alpha3CodeStr() string  { return c.alpha3.String() }
 
 func ByAlpha3Code(code Alpha3Code) (result Country, ok bool) {
 	result, ok = countryByAlpha3[code]
