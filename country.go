@@ -1,4 +1,3 @@
-// This code is auto-generated; DO NOT EDIT.
 package country
 
 import (
@@ -20,7 +19,7 @@ func (name Name) Value() (value driver.Value, err error) {
 func (name Name) Validate(_ interface{}) (err error) {
 	_, err = ByNameErr(name)
 
-	return nil
+	return
 }
 
 func (name Name) IsSet() bool {
@@ -85,12 +84,12 @@ type Country struct {
 	alpha3 Alpha3Code
 }
 
-func (c Country) Name() Name             { return c.name }
-func (c Country) Alpha2Code() Alpha2Code { return c.alpha2 }
-func (c Country) Alpha3Code() Alpha3Code { return c.alpha3 }
-func (c Country) NameStr() string        { return c.name.String() }
-func (c Country) Alpha2CodeStr() string  { return c.alpha2.String() }
-func (c Country) Alpha3CodeStr() string  { return c.alpha3.String() }
+func (country Country) Name() Name             { return country.name }
+func (country Country) Alpha2Code() Alpha2Code { return country.alpha2 }
+func (country Country) Alpha3Code() Alpha3Code { return country.alpha3 }
+func (country Country) NameStr() string        { return country.name.String() }
+func (country Country) Alpha2CodeStr() string  { return country.alpha2.String() }
+func (country Country) Alpha3CodeStr() string  { return country.alpha3.String() }
 
 func ByAlpha3Code(code Alpha3Code) (result Country, ok bool) {
 	result, ok = countryByAlpha3[code]
@@ -144,7 +143,7 @@ func ByName(country Name) (result Country, ok bool) {
 }
 
 func ByNameStr(country string) (result Country, ok bool) {
-	return ByName(Name(strings.ToUpper(country)))
+	return ByName(Name(country))
 }
 
 func ByNameErr(country Name) (result Country, err error) {
@@ -158,5 +157,5 @@ func ByNameErr(country Name) (result Country, err error) {
 }
 
 func ByNameStrErr(country string) (result Country, err error) {
-	return ByNameErr(Name(strings.ToUpper(country)))
+	return ByNameErr(Name(country))
 }
