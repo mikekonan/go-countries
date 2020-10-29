@@ -15,7 +15,7 @@ codes = codes.map(code => {
         value: code['Alpha-3 code']
     }
 
-    result.country = {value: code['English short name']}
+    result.name = {value: code['English short name']}
 
     let enumCountryKey = code['English short name']
 
@@ -60,7 +60,7 @@ codes = codes.map(code => {
     enumCountryKey = enumCountryKey.replace(/( ?)\[.*\]( ?)/, "")
     enumCountryKey = enumCountryKey.split(" ").map(str => `${str[0].toUpperCase()}${str.slice(1)}`).join("")
 
-    result.country.key = `Country${enumCountryKey}`
+    result.name.key = `Name${enumCountryKey}`
     result.key = enumCountryKey
 
     return result
@@ -70,7 +70,7 @@ const countriesTemplate = `// This code is auto-generated; DO NOT EDIT.
 package country
 
 const (
-${codes.map(code => `${code.country.key} = Country("${code.country.value}")`).join("\n")}
+${codes.map(code => `${code.name.key} = Name("${code.name.value}")`).join("\n")}
 ) 
 `;
 
@@ -94,8 +94,8 @@ const entitiesTemplate = `// This code is auto-generated; DO NOT EDIT.
 package country
 
 var (
-${codes.map(code => `${code.key} = country{
-		country: ${code.country.key},
+${codes.map(code => `${code.key} = Country{
+		name: ${code.name.key},
 		alpha2:  ${code.a2.key},
 		alpha3:  ${code.a3.key},
 	}`).join("\n")}
@@ -105,20 +105,20 @@ ${codes.map(code => `${code.key} = country{
 const countryByCountryTemplate = `// This code is auto-generated; DO NOT EDIT.
 package country
 
-var countryByCountry = map[Country]country{
-	${codes.map(code => `${code.country.key} : ${code.key}`).join(",\n")},
+var countryByName = map[Name]Country{
+	${codes.map(code => `${code.name.key} : ${code.key}`).join(",\n")},
 }
 
-var countryByAlpha2 = map[Alpha2Code]country{
+var countryByAlpha2 = map[Alpha2Code]Country{
 	${codes.map(code => `${code.a2.key} : ${code.key}`).join(",\n")},
 }
 
-var countryByAlpha3 = map[Alpha3Code]country{
+var countryByAlpha3 = map[Alpha3Code]Country{
 	${codes.map(code => `${code.a3.key} : ${code.key}`).join(",\n")},
 }
 `;
 
-fs.writeFileSync("country_gen.go", countriesTemplate, {
+fs.writeFileSync("name_gen.go", countriesTemplate, {
     encoding: 'utf8',
     flag: 'w'
 });
