@@ -4,11 +4,12 @@ package country
 import (
 	"database/sql/driver"
 	"fmt"
+	"strings"
 )
 
-type Country string
+type Name string
 
-func (c Country) Value() (value driver.Value, err error) {
+func (c Name) Value() (value driver.Value, err error) {
 	if err = c.Validate(nil); err != nil {
 		return nil, err
 	}
@@ -16,13 +17,13 @@ func (c Country) Value() (value driver.Value, err error) {
 	return c, nil
 }
 
-func (c Country) Validate(_ interface{}) (err error) {
+func (c Name) Validate(_ interface{}) (err error) {
 	_, err = ByCountryErr(c)
 
 	return nil
 }
 
-func (c Country) IsSet() bool {
+func (c Name) IsSet() bool {
 	return len(string(c)) > 0
 }
 
@@ -66,26 +67,26 @@ func (c Alpha3Code) IsSet() bool {
 	return len(string(c)) > 0
 }
 
-type country struct {
-	country Country
+type Country struct {
+	country Name
 	alpha2  Alpha2Code
 	alpha3  Alpha3Code
 }
 
-func (c country) Country() Country       { return c.country }
-func (c country) Alpha2Code() Alpha2Code { return c.alpha2 }
-func (c country) Alpha3Code() Alpha3Code { return c.alpha3 }
+func (c Country) Country() Name          { return c.country }
+func (c Country) Alpha2Code() Alpha2Code { return c.alpha2 }
+func (c Country) Alpha3Code() Alpha3Code { return c.alpha3 }
 
-func ByAlpha3Code(code Alpha3Code) (result country, ok bool) {
+func ByAlpha3Code(code Alpha3Code) (result Country, ok bool) {
 	result, ok = countryByAlpha3[code]
 	return
 }
 
-func ByAlpha3CodeStr(code string) (result country, ok bool) {
-	return ByAlpha3Code(Alpha3Code(code))
+func ByAlpha3CodeStr(code string) (result Country, ok bool) {
+	return ByAlpha3Code(Alpha3Code(strings.ToUpper(code)))
 }
 
-func ByAlpha3CodeErr(code Alpha3Code) (result country, err error) {
+func ByAlpha3CodeErr(code Alpha3Code) (result Country, err error) {
 	var ok bool
 	result, ok = ByAlpha3Code(code)
 	if !ok {
@@ -95,20 +96,20 @@ func ByAlpha3CodeErr(code Alpha3Code) (result country, err error) {
 	return
 }
 
-func ByAlpha3CodeStrErr(code string) (result country, err error) {
-	return ByAlpha3CodeErr(Alpha3Code(code))
+func ByAlpha3CodeStrErr(code string) (result Country, err error) {
+	return ByAlpha3CodeErr(Alpha3Code(strings.ToUpper(code)))
 }
 
-func ByAlpha2Code(code Alpha2Code) (result country, ok bool) {
+func ByAlpha2Code(code Alpha2Code) (result Country, ok bool) {
 	result, ok = countryByAlpha2[code]
 	return
 }
 
-func ByAlpha2CodeStr(code string) (result country, ok bool) {
-	return ByAlpha2Code(Alpha2Code(code))
+func ByAlpha2CodeStr(code string) (result Country, ok bool) {
+	return ByAlpha2Code(Alpha2Code(strings.ToUpper(code)))
 }
 
-func ByAlpha2CodeErr(code Alpha2Code) (result country, err error) {
+func ByAlpha2CodeErr(code Alpha2Code) (result Country, err error) {
 	var ok bool
 	result, ok = ByAlpha2Code(code)
 	if !ok {
@@ -118,29 +119,29 @@ func ByAlpha2CodeErr(code Alpha2Code) (result country, err error) {
 	return
 }
 
-func ByAlpha2CodeStrErr(code string) (result country, err error) {
-	return ByAlpha2CodeErr(Alpha2Code(code))
+func ByAlpha2CodeStrErr(code string) (result Country, err error) {
+	return ByAlpha2CodeErr(Alpha2Code(strings.ToUpper(code)))
 }
 
-func ByCountry(country Country) (result country, ok bool) {
+func ByCountry(country Name) (result Country, ok bool) {
 	result, ok = countryByCountry[country]
 	return
 }
 
-func ByCountryStr(country string) (result country, ok bool) {
-	return ByCountry(Country(country))
+func ByCountryStr(country string) (result Country, ok bool) {
+	return ByCountry(Name(strings.ToUpper(country)))
 }
 
-func ByCountryErr(country Country) (result country, err error) {
+func ByCountryErr(country Name) (result Country, err error) {
 	var ok bool
 	result, ok = ByCountry(country)
 	if !ok {
-		err = fmt.Errorf("'%s' is not valid ISO-3166 country name", country)
+		err = fmt.Errorf("'%s' is not valid ISO-3166 Country name", country)
 	}
 
 	return
 }
 
-func ByCountryStrErr(country string) (result country, err error) {
-	return ByCountryErr(Country(country))
+func ByCountryStrErr(country string) (result Country, err error) {
+	return ByCountryErr(Name(strings.ToUpper(country)))
 }
