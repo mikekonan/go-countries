@@ -1,42 +1,144 @@
 const fs = require('fs');
+const transliterate = require('transliteration');
 
-const buff = fs.readFileSync(0);
+let codes = JSON.parse(fs.readFileSync(0, 'utf8'));
 
-const codes = JSON.parse(buff.toString());
+codes = codes.map(code => {
+    let result = {};
+    result.a2 = {
+        key: `Alpha2${code['Alpha-2 code']}`,
+        value: code['Alpha-2 code']
+    }
 
-const countryByCountry =
-    codes.map(country => `"${country['English short name']}": {
-		country: "${country['English short name']}",
-		alpha2:  "${country['Alpha-2 code']}",
-		alpha3:  "${country['Alpha-3 code']}",
-    }`);
+    result.a3 = {
+        key: `Alpha3${code['Alpha-3 code']}`,
+        value: code['Alpha-3 code']
+    }
 
-const countryByAlpha2 = codes.map(country => `"${country['Alpha-2 code']}": {
-		country: "${country['English short name']}",
-		alpha2:  "${country['Alpha-2 code']}",
-		alpha3:  "${country['Alpha-3 code']}",
-    }`);
+    result.country = {value: code['English short name']}
 
-const countryByAlpha3 = codes.map(country => `"${country['Alpha-3 code']}": {
-		country: "${country['English short name']}",
-		alpha2:  "${country['Alpha-2 code']}",
-		alpha3:  "${country['Alpha-3 code']}",
-    }`);
+    let enumCountryKey = code['English short name']
 
-let template = `// This code is auto-generated; DO NOT EDIT.
+    if (enumCountryKey === "Korea (the Republic of)") {
+        enumCountryKey = "South Korea"
+    }
+
+    switch (enumCountryKey) {
+        case "Korea (the Democratic People's Republic of)": {
+            enumCountryKey = "North Korea"
+            break
+        }
+        case "Korea (the Republic of)": {
+            enumCountryKey = "South Korea"
+            break
+        }
+        case "Virgin Islands (British)": {
+            enumCountryKey = "British Virgin Islands"
+            break
+        }
+        case "Virgin Islands (U.S.)": {
+            enumCountryKey = "US Virgin Islands"
+            break
+        }
+        case "Palestine, State of": {
+            enumCountryKey = "Palestine"
+            break
+        }
+        case "Congo (the Democratic Republic of the)": {
+            enumCountryKey = "Democratic Republic of the Congo"
+            break
+        }
+    }
+
+    enumCountryKey = transliterate.transliterate(enumCountryKey)
+    enumCountryKey = enumCountryKey.replace(",", "")
+    enumCountryKey = enumCountryKey.replace(".", "")
+    enumCountryKey = enumCountryKey.replace("'", "")
+    enumCountryKey = enumCountryKey.replace("-", "")
+    enumCountryKey = enumCountryKey.replace("*", "")
+    enumCountryKey = enumCountryKey.replace(/( ?)\(.*\)( ?)/, "")
+    enumCountryKey = enumCountryKey.replace(/( ?)\[.*\]( ?)/, "")
+    enumCountryKey = enumCountryKey.split(" ").map(str => `${str[0].toUpperCase()}${str.slice(1)}`).join("")
+
+    result.country.key = `Country${enumCountryKey}`
+    result.key = enumCountryKey
+
+    return result
+})
+
+const countriesTemplate = `// This code is auto-generated; DO NOT EDIT.
 package country
- 
+
+const (
+${codes.map(code => `${code.country.key} = Country("${code.country.value}")`).join("\n")}
+) 
+`;
+
+const alpha2Template = `// This code is auto-generated; DO NOT EDIT.
+package country
+
+const (
+${codes.map(code => `${code.a2.key} = Alpha2Code("${code.a2.value}")`).join("\n")}
+) 
+`;
+
+const alpha3Template = `// This code is auto-generated; DO NOT EDIT.
+package country
+
+const (
+${codes.map(code => `${code.a3.key} = Alpha3Code("${code.a3.value}")`).join("\n")}
+) 
+`;
+
+const entitiesTemplate = `// This code is auto-generated; DO NOT EDIT.
+package country
+
+var (
+${codes.map(code => `${code.key} = country{
+		country: ${code.country.key},
+		alpha2:  ${code.a2.key},
+		alpha3:  ${code.a3.key},
+	}`).join("\n")}
+) 
+`;
+
+const countryByCountryTemplate = `// This code is auto-generated; DO NOT EDIT.
+package country
+
 var countryByCountry = map[Country]country{
-	${countryByCountry},
+	${codes.map(code => `${code.country.key} : ${code.key}`).join(",\n")},
 }
 
 var countryByAlpha2 = map[Alpha2Code]country{
-	${countryByAlpha2},
+	${codes.map(code => `${code.a2.key} : ${code.key}`).join(",\n")},
 }
 
 var countryByAlpha3 = map[Alpha3Code]country{
-	${countryByAlpha3},
+	${codes.map(code => `${code.a3.key} : ${code.key}`).join(",\n")},
 }
-`
+`;
 
-console.log(template);
+fs.writeFileSync("country_gen.go", countriesTemplate, {
+    encoding: 'utf8',
+    flag: 'w'
+});
+
+fs.writeFileSync("alpha2_gen.go", alpha2Template, {
+    encoding: 'utf8',
+    flag: 'w'
+});
+
+fs.writeFileSync("alpha3_gen.go", alpha3Template, {
+    encoding: 'utf8',
+    flag: 'w'
+});
+
+fs.writeFileSync("entities_gen.go", entitiesTemplate, {
+    encoding: 'utf8',
+    flag: 'w'
+});
+
+fs.writeFileSync("country_mapping_gen.go", countryByCountryTemplate, {
+    encoding: 'utf8',
+    flag: 'w'
+});
