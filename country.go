@@ -1,5 +1,11 @@
 /*
 Package country provides lookups methods over ISO-3166 countries.
+
+Constants have been generated with code generation(github.com/mikekonan/go-countries@generator).
+
+The source of truth is https://www.iso.org/iso-3166-country-codes.html.
+
+Author Mikalai Konan(mikalai.konan@icloud.com).
 */
 package country
 
