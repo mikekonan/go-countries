@@ -7,19 +7,55 @@ import (
 
 func TestAllSet(t *testing.T) {
 	for key, country := range countryByName {
-		if !(key.IsSet() && country.name.IsSet() && country.alpha2.IsSet() && country.alpha3.IsSet()) {
+		if !key.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.name.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.alpha2.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.alpha3.IsSet() {
 			t.FailNow()
 		}
 	}
 
 	for key, country := range countryByAlpha3 {
-		if !(key.IsSet() && country.name.IsSet() && country.alpha2.IsSet() && country.alpha3.IsSet()) {
+		if !key.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.name.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.alpha2.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.alpha3.IsSet() {
 			t.FailNow()
 		}
 	}
 
 	for key, country := range countryByAlpha2 {
-		if !(key.IsSet() && country.name.IsSet() && country.alpha2.IsSet() && country.alpha3.IsSet()) {
+		if !key.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.name.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.alpha2.IsSet() {
+			t.FailNow()
+		}
+
+		if !country.alpha3.IsSet() {
 			t.FailNow()
 		}
 	}
