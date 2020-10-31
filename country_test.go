@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestAllSet(t *testing.T) {
+func TestCountryByNameIsSet(t *testing.T) {
 	for key, country := range countryByName {
 		if !key.IsSet() {
 			t.FailNow()
@@ -23,7 +23,9 @@ func TestAllSet(t *testing.T) {
 			t.FailNow()
 		}
 	}
+}
 
+func TestCountryByAlpha3IsSet(t *testing.T) {
 	for key, country := range countryByAlpha3 {
 		if !key.IsSet() {
 			t.FailNow()
@@ -41,7 +43,9 @@ func TestAllSet(t *testing.T) {
 			t.FailNow()
 		}
 	}
+}
 
+func TestCountryByAlpha2IsSet(t *testing.T) {
 	for key, country := range countryByAlpha2 {
 		if !key.IsSet() {
 			t.FailNow()
