@@ -8,6 +8,40 @@ Created with a codegen - check generator branch.
 
 # Installation
 ```go get github.com/mikekonan/go-countries```
+
+# Usage:
+	//1. use in your structs
+	type User struct {
+		Name    string             `json:"name" db:"name"`
+		Country country.Alpha2Code `json:"country" db:"country"`
+	}
+
+	func main() {
+		user := User{}
+		//2. use in your wire
+		json.Unmarshal([]byte(`{"name":"name", "country": "ca"}`), &user)
+
+		//3. check is set
+		user.Country.IsSet() //check user country is provided
+
+		//4. validate using ozzo-validation
+		if err := validation.ValidateStruct(&user, validation.Field(&user.Country, validation.Required, user.Country)); err != nil {
+			log.Fatal(err)
+		}
+
+		//5. lookup by alpha2, alpha3, country name
+		if userCountry, ok := country.ByAlpha2Code(user.Country); ok {
+			fmt.Printf("country name - '%s', alpha-2 - '%s', alpha-3 - '%s'", userCountry.Name(), userCountry.Alpha2Code(), userCountry.Alpha3Code())
+		}
+
+		//6. store in db
+		fmt.Println(user.Country.Value()) //prints 'CA'
+
+		//7. use specific countries
+		fmt.Println(country.Canada.Alpha2Code())
+	}
+    
+
 # API
 ### Lookup:
     country.ByNameStrErr()

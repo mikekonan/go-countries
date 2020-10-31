@@ -5,6 +5,8 @@ Constants have been generated with code generation(github.com/mikekonan/go-count
 
 The source of truth is https://www.iso.org/iso-3166-country-codes.html.
 
+Lookups methods by alpha2 and alpha3 are case robust.
+
 Author Mikalai Konan(mikalai.konan@icloud.com).
 */
 package country
@@ -49,11 +51,13 @@ type Alpha2Code string
 
 //Value implementation of driver.Valuer
 func (code Alpha2Code) Value() (value driver.Value, err error) {
-	if _, err = ByAlpha2CodeErr(code); err != nil {
+	var country Country
+
+	if country, err = ByAlpha2CodeErr(code); err != nil {
 		return nil, err
 	}
 
-	return code.String(), nil
+	return country.Alpha2Code().String(), nil
 }
 
 //Validate implementation of ozzo-validation Validate interface
@@ -73,16 +77,22 @@ func (code Alpha2Code) String() string {
 	return string(code)
 }
 
+func (code Alpha2Code) toUpper() Alpha2Code {
+	return Alpha2Code(strings.ToUpper(code.String()))
+}
+
 //Alpha3Code represents alpha-3 code
 type Alpha3Code string
 
 //Value implementation of driver.Valuer
 func (code Alpha3Code) Value() (value driver.Value, err error) {
-	if _, err = ByAlpha3CodeErr(code); err != nil {
+	var country Country
+
+	if country, err = ByAlpha3CodeErr(code); err != nil {
 		return nil, err
 	}
 
-	return code.String(), nil
+	return country.Alpha3Code().String(), nil
 }
 
 //Validate implementation of ozzo-validation Validate interface
@@ -100,6 +110,10 @@ func (code Alpha3Code) IsSet() bool {
 //String implementation of Stringer interface
 func (code Alpha3Code) String() string {
 	return string(code)
+}
+
+func (code Alpha3Code) toUpper() Alpha3Code {
+	return Alpha3Code(strings.ToUpper(code.String()))
 }
 
 //Country represents country entity according to ISO-3166.
@@ -129,13 +143,14 @@ func (country Country) Alpha3CodeStr() string { return country.alpha3.String() }
 
 //ByAlpha3Code lookup for country by alpha-3 code
 func ByAlpha3Code(code Alpha3Code) (result Country, ok bool) {
-	result, ok = countryByAlpha3[code]
+	result, ok = countryByAlpha3[code.toUpper()]
+
 	return
 }
 
-//ByAlpha3CodeStr lookup for country by alpha-3 code string. Lowercase robust
+//ByAlpha3CodeStr lookup for country by alpha-3 code string
 func ByAlpha3CodeStr(code string) (result Country, ok bool) {
-	return ByAlpha3Code(Alpha3Code(strings.ToUpper(code)))
+	return ByAlpha3Code(Alpha3Code(code))
 }
 
 //ByAlpha3CodeErr lookup for country by alpha-3 code with error return type
@@ -149,20 +164,20 @@ func ByAlpha3CodeErr(code Alpha3Code) (result Country, err error) {
 	return
 }
 
-//ByAlpha3CodeStrErr lookup for country by alpha-3 code string with error return type. Lowercase robust
+//ByAlpha3CodeStrErr lookup for country by alpha-3 code string with error return type
 func ByAlpha3CodeStrErr(code string) (result Country, err error) {
-	return ByAlpha3CodeErr(Alpha3Code(strings.ToUpper(code)))
+	return ByAlpha3CodeErr(Alpha3Code(code))
 }
 
 //ByAlpha2Code lookup for country by alpha-2 code
 func ByAlpha2Code(code Alpha2Code) (result Country, ok bool) {
-	result, ok = countryByAlpha2[code]
+	result, ok = countryByAlpha2[code.toUpper()]
 	return
 }
 
-//ByAlpha2CodeStr lookup for country by alpha-2 code string. Lowercase robust
+//ByAlpha2CodeStr lookup for country by alpha-2 code string
 func ByAlpha2CodeStr(code string) (result Country, ok bool) {
-	return ByAlpha2Code(Alpha2Code(strings.ToUpper(code)))
+	return ByAlpha2Code(Alpha2Code(code))
 }
 
 //ByAlpha2CodeErr lookup for country by alpha-2 code with error return type
@@ -176,9 +191,9 @@ func ByAlpha2CodeErr(code Alpha2Code) (result Country, err error) {
 	return
 }
 
-//ByAlpha2CodeStrErr lookup for country by alpha-2 code string with error return type. Lowercase robust
+//ByAlpha2CodeStrErr lookup for country by alpha-2 code string with error return type
 func ByAlpha2CodeStrErr(code string) (result Country, err error) {
-	return ByAlpha2CodeErr(Alpha2Code(strings.ToUpper(code)))
+	return ByAlpha2CodeErr(Alpha2Code(code))
 }
 
 //ByName lookup for country by name
