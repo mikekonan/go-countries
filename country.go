@@ -22,6 +22,10 @@ type Name string
 
 //Value implementation of driver.Valuer
 func (name Name) Value() (value driver.Value, err error) {
+	if name == "" {
+		return "", nil
+	}
+
 	if _, err = ByNameErr(name); err != nil {
 		return nil, err
 	}
@@ -51,6 +55,10 @@ type Alpha2Code string
 
 //Value implementation of driver.Valuer
 func (code Alpha2Code) Value() (value driver.Value, err error) {
+	if code == "" {
+		return "", nil
+	}
+
 	var country Country
 
 	if country, err = ByAlpha2CodeErr(code); err != nil {
@@ -86,6 +94,10 @@ type Alpha3Code string
 
 //Value implementation of driver.Valuer
 func (code Alpha3Code) Value() (value driver.Value, err error) {
+	if code == "" {
+		return "", nil
+	}
+
 	var country Country
 
 	if country, err = ByAlpha3CodeErr(code); err != nil {
