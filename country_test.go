@@ -332,3 +332,42 @@ func TestNameLookup(t *testing.T) {
 		t.FailNow()
 	}
 }
+
+func TestDriverValue(t *testing.T) {
+	if value, err := Alpha2US.Value(); err != nil || value.(string) != Alpha2US.String() {
+		t.FailNow()
+	}
+
+	if value, err := Alpha2Code("invalid").Value(); err == nil || value != nil {
+		t.FailNow()
+	}
+
+	if value, err := Alpha2Code("").Value(); err != nil || value.(string) != "" {
+		t.FailNow()
+	}
+
+	if value, err := Alpha3USA.Value(); err != nil || value.(string) != Alpha3USA.String() {
+		t.FailNow()
+	}
+
+	if value, err := Alpha3Code("invalid").Value(); err == nil || value != nil {
+		t.FailNow()
+	}
+
+	if value, err := Alpha3Code("").Value(); err != nil || value.(string) != "" {
+		t.FailNow()
+	}
+
+	if value, err := NameUnitedStatesOfAmerica.Value(); err != nil || value.(string) != NameUnitedStatesOfAmerica.String() {
+		t.FailNow()
+	}
+
+	if value, err := Name("invalid").Value(); err == nil || value != nil {
+		t.FailNow()
+	}
+
+	if value, err := Name("").Value(); err != nil || value.(string) != "" {
+		t.FailNow()
+	}
+
+}
