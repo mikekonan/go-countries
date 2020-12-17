@@ -1,6 +1,8 @@
 package country
 
 import (
+	"encoding/json"
+	"fmt"
 	"strings"
 	"testing"
 )
@@ -370,4 +372,67 @@ func TestDriverValue(t *testing.T) {
 		t.FailNow()
 	}
 
+}
+
+func TestNameUnmarshalJson(t *testing.T) {
+	type NameStruct struct {
+		Name Name `json:"name"`
+	}
+
+	var positive NameStruct
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"name":"%s"}`, UnitedStatesOfAmerica.Name())), &positive); err != nil && positive.Name != UnitedStatesOfAmerica.Name() {
+		t.FailNow()
+	}
+
+	var wrongName NameStruct
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"name":"%s"}`, "wrong name")), &wrongName); err == nil {
+		t.FailNow()
+	}
+
+	var emptyName NameStruct
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"name":"%s"}`, "")), &emptyName); err == nil {
+		t.FailNow()
+	}
+}
+
+func TestAlpha2CodeUnmarshalJson(t *testing.T) {
+	type Alpha2CodeStruct struct {
+		Alpha2Code Alpha2Code `json:"code"`
+	}
+
+	var positive Alpha2CodeStruct
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"code":"%s"}`, UnitedStatesOfAmerica.Alpha2Code())), &positive); err != nil && positive.Alpha2Code != UnitedStatesOfAmerica.Alpha2Code() {
+		t.FailNow()
+	}
+
+	var wrongCode Alpha2Code
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"code":"%s"}`, "wrong code")), &wrongCode); err == nil {
+		t.FailNow()
+	}
+
+	var emptyCode Alpha2Code
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"code":"%s"}`, "")), &emptyCode); err == nil {
+		t.FailNow()
+	}
+}
+
+func TestAlpha3CodeUnmarshalJson(t *testing.T) {
+	type Alpha3CodeStruct struct {
+		Alpha3Code Alpha3Code `json:"code"`
+	}
+
+	var positive Alpha3CodeStruct
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"code":"%s"}`, UnitedStatesOfAmerica.Alpha3Code())), &positive); err != nil && positive.Alpha3Code != UnitedStatesOfAmerica.Alpha3Code() {
+		t.FailNow()
+	}
+
+	var wrongCode Alpha3Code
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"code":"%s"}`, "wrong code")), &wrongCode); err == nil {
+		t.FailNow()
+	}
+
+	var emptyCode Alpha3Code
+	if err := json.Unmarshal([]byte(fmt.Sprintf(`{"code":"%s"}`, "")), &emptyCode); err == nil {
+		t.FailNow()
+	}
 }
