@@ -13,12 +13,29 @@ package country
 
 import (
 	"database/sql/driver"
+	"encoding/json"
 	"fmt"
 	"strings"
 )
 
 //Name represents country name
 type Name string
+
+//UnmarshalJSON unmarshall implementation for name
+func (name *Name) UnmarshalJSON(data []byte) error {
+	var str string
+	if err := json.Unmarshal(data, &str); err != nil {
+		return err
+	}
+
+	enumValue := Name(str)
+	if _, err := ByNameErr(enumValue); err != nil {
+		return err
+	}
+
+	*name = enumValue
+	return nil
+}
 
 //Value implementation of driver.Valuer
 func (name Name) Value() (value driver.Value, err error) {
@@ -52,6 +69,22 @@ func (name Name) String() string {
 
 //Alpha2Code represents alpha-2 code
 type Alpha2Code string
+
+//UnmarshalJSON unmarshall implementation for alpha2code
+func (code *Alpha2Code) UnmarshalJSON(data []byte) error {
+	var str string
+	if err := json.Unmarshal(data, &str); err != nil {
+		return err
+	}
+
+	enumValue := Alpha2Code(str)
+	if _, err := ByAlpha2CodeErr(enumValue); err != nil {
+		return err
+	}
+
+	*code = enumValue
+	return nil
+}
 
 //Value implementation of driver.Valuer
 func (code Alpha2Code) Value() (value driver.Value, err error) {
@@ -91,6 +124,22 @@ func (code Alpha2Code) toUpper() Alpha2Code {
 
 //Alpha3Code represents alpha-3 code
 type Alpha3Code string
+
+//UnmarshalJSON unmarshall implementation for alpha3code
+func (code *Alpha3Code) UnmarshalJSON(data []byte) error {
+	var str string
+	if err := json.Unmarshal(data, &str); err != nil {
+		return err
+	}
+
+	enumValue := Alpha3Code(str)
+	if _, err := ByAlpha3CodeErr(enumValue); err != nil {
+		return err
+	}
+
+	*code = enumValue
+	return nil
+}
 
 //Value implementation of driver.Valuer
 func (code Alpha3Code) Value() (value driver.Value, err error) {
